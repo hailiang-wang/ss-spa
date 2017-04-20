@@ -1,10 +1,10 @@
 {
-  "name": "react-peerjs",
+  "name": "ss-spa",
   "version": "0.0.0",
-  "description": "ReactJS chat with PeerJS",
-  "main": "index.js",
+  "description": "SuperScript Single Page Application",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [
     "webrtc",
@@ -13,10 +13,14 @@
     "javascript",
     "awesome"
   ],
-  "author": "mgechev",
+  "author": "Hai Liang Wang<hailiang.hl.wang@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "~4.8.4",
+    "figlet": "^1.2.0",
+    "koa": "^2.1.0",
+    "koa-static": "^3.0.0",
+    "lodash": "^4.17.4",
+    "log4js": "^1.1.1",
     "peer": "~0.2.6",
     "socket.io": "~1.0.6"
   }

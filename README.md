@@ -1,11 +1,14 @@
-Code from the tutorial at [blog.mgechev.com](http://blog.mgechev.com/2014/09/03/webrtc-peer-to-peer-chat-with-react/)
+# SuperScript Single Page Application
 
-# Instructions
+* Easy to bootstrap SuperScript.
+* Embrace WeakAI in minutes.
+* Adopt chatbot quickly.
 
-```bash
+
+## Usage
+```
 npm install
-npm install -g bower
 bower install
-node index.js
+npm start
 open http://localhost:3001
 ```

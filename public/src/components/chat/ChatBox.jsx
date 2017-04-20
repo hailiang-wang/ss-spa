@@ -50,7 +50,7 @@ var ChatBox = React.createClass({
   render: function () {
     return (
       <div className="chat-box" ref="root">
-        <div className="chat-header ui-widget-header">React p2p Chat</div>
+        <div className="chat-header ui-widget-header">SuperScript Single Page Application</div>
         <div className="chat-content-wrapper row">
           <MessagesList ref="messagesList"></MessagesList>
           <UsersList users={this.state.users} ref="usersList"></UsersList>
