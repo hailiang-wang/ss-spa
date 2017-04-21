@@ -4,7 +4,6 @@
 * Embrace WeakAI in minutes.
 * Adopt chatbot quickly.
 
-
 ## Usage
 ```
 npm install
