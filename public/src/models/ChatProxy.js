@@ -66,6 +66,15 @@ ChatProxy.prototype.connect = function (username) {
       self.emit(Topics.USER_DISCONNECTED, userId);
       console.log('User disconnected', userId);
     });
+
+    /** Subscribe server:client message */
+    self.socket.on('server:client', function (data) {
+      console.log('server:client', data)
+      self.emit(Topics.USER_MESSAGE, {
+        content: data.content || 'Oops, can not get message from SuperScript ...',
+        author: 'bot'
+      })
+    })
   });
   console.log('Connecting with username', username);
   this.peer = new Peer(username, {
