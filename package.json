@@ -8,11 +8,11 @@
     "parse": "node_modules/superscript/lib/bin/parse.js -p chat -o data.json -f"
   },
   "keywords": [
-    "webrtc",
+    "chatbot",
     "nodejs",
     "react",
     "javascript",
-    "awesome"
+    "superscript"
   ],
   "author": "Hai Liang Wang<hailiang.hl.wang@gmail.com>",
   "engines": {
