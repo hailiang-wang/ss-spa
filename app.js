@@ -8,12 +8,13 @@ const app = new Koa();
 const path = require('path');
 const figlet = require('figlet')
 const port = process.env.PORT || 3001;
+const logger = require('./services/logging.service').getLogger('app')
 
 app.use(serve(path.join(__dirname, '/public')))
 
 const httpServer = app.listen(port, function () {
   figlet('SS SPA', function (err, data) {
-    console.log(`            
+    logger.info(`            
 ${data}
 =============== Powered by SuperScript ============
 --------https://github.com/Samurais/ss-spa --------
@@ -24,19 +25,30 @@ ___________________________________________________
 Hope you like it, and you are very welcome to
 upgrade me for more super powers!
 `)
-    console.log('Sphinx Test Client Listening on port', port)
+    logger.info('Sphinx Test Client Listening on port', port)
   })
 })
 const io = require('socket.io').listen(httpServer);
+
+
+/**
+ * Process Socket Event
+ * https://nodesource.com/blog/understanding-socketio/
+ */
+io.on('connection', function (socket) {
+  socket.on('client:server', function (data) {
+    logger.debug('socket.io', 'client:server', data)
+  })
+});
 
 const peerServer = new PeerServer({ port: 9000, path: '/chat' });
 
 peerServer.on('connection', function (id) {
   io.emit(Topics.USER_CONNECTED, id);
-  console.log('User connected with #', id);
+  logger.info('User connected with #', id);
 });
 
 peerServer.on('disconnect', function (id) {
   io.emit(Topics.USER_DISCONNECTED, id);
-  console.log('With #', id, 'user disconnected.');
+  logger.info('With #', id, 'user disconnected.');
 });

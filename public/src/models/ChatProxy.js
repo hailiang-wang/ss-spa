@@ -38,6 +38,13 @@ ChatProxy.prototype.broadcast = function (msg) {
   }
 };
 
+/**
+ * Send to server with socket.io
+ */
+ChatProxy.prototype.sendToServer = function (msg) {
+  this.socket.emit('client:server', msg)
+}
+
 ChatProxy.prototype.connect = function (username) {
   var self = this;
   this.setUsername(username);
