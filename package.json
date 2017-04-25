@@ -4,8 +4,9 @@
   "description": "SuperScript Single Page Application",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "parse": "node_modules/superscript/lib/bin/parse.js -p chat -o data.json -f",
     "start": "node app.js",
-    "parse": "node_modules/superscript/lib/bin/parse.js -p chat -o data.json -f"
+    "dev:start": "node_modules/nodemon/bin/nodemon.js --ignore logs --watch chat -e ss --exec 'npm run parse && npm start'"
   },
   "keywords": [
     "chatbot",
@@ -29,5 +30,8 @@
     "peer": "~0.2.6",
     "socket.io": "~1.0.6",
     "superscript": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
