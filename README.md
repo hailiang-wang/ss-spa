@@ -36,7 +36,7 @@ npm run dev:start
 docker pull tutum/mongodb:3.2
 docker pull samurais/ss-spa:0.0.1
 ./scripts/start-with-docker.sh
-open open http://localhost:3001
+open http://localhost:3001
 ```
 
 # License
