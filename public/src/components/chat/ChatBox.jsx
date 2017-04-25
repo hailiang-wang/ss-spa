@@ -57,7 +57,7 @@ var ChatBox = React.createClass({
         <div className="chat-header ui-widget-header">SuperScript Single Page Application</div>
         <div className="chat-content-wrapper row">
           <MessagesList ref="messagesList"></MessagesList>
-          <UsersList users={this.state.users} ref="usersList"></UsersList>
+          <UsersList users={this.state.users} chatProxy={this.props.chatProxy} ref="usersList"></UsersList>
         </div>
         <MessageInput
           ref="messageInput"

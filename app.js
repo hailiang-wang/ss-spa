@@ -49,7 +49,7 @@ io.on('connection', function (socket) {
     logger.debug('Get reply from superscript', response);
     socket.emit('server:client', {
       recipient: data.author,
-      content: response.string
+      response: response
     })
   })
 });

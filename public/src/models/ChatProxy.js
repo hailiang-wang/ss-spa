@@ -20,6 +20,10 @@ ChatProxy.prototype.setUsername = function (username) {
   this._username = username;
 };
 
+ChatProxy.prototype.onSuperScriptResponseUpdate = function (cb) {
+  this.addListener(Topics.SUPERSCRIPT_RESPONSE, cb)
+}
+
 ChatProxy.prototype.onUserConnected = function (cb) {
   this.addListener(Topics.USER_CONNECTED, cb);
 };
@@ -71,9 +75,11 @@ ChatProxy.prototype.connect = function (username) {
     self.socket.on('server:client', function (data) {
       console.log('server:client', data)
       self.emit(Topics.USER_MESSAGE, {
-        content: data.content || 'Oops, can not get message from SuperScript ...',
+        content: data.response.string || 'Oops, can not get message from SuperScript ...',
         author: 'bot'
       })
+
+      self.emit(Topics.SUPERSCRIPT_RESPONSE, data)
     })
   });
   console.log('Connecting with username', username);
