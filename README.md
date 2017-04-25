@@ -9,6 +9,8 @@ SuperScript Single Page Application is
 
 ## Usage
 ```
+git clone https://github.com/Samurais/ss-spa.git
+cd ss-spa
 npm install
 bower install
 npm start
