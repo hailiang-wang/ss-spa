@@ -1,0 +1,10 @@
+*/sftp-config.json
+*/*.sublime-*
+.*
+node_modules/
+logs/*
+scripts/
+# config/environment/development.js
+config/environment/production.js
+
+*/dist

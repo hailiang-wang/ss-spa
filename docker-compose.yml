@@ -1,0 +1,20 @@
+version: '2'
+services:
+  mongodb:
+    image: "tutum/mongodb:3.2"
+    # ports:
+    #  - "27017:27017"
+    #  - "27018:27018"
+    environment:
+     - AUTH=no
+  web:
+    image: "samurais/ss-spa:0.0.1"
+    command: "node app.js"
+    ports:
+     - "3001:3001"
+    depends_on:
+     - mongodb
+    links:
+     - mongodb
+    environment:
+     - MONGO_DB_URI=mongodb://mongodb/SuperScriptSPA
