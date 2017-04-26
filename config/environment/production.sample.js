@@ -1,7 +1,13 @@
-'use strict';
+'use strict'
 
 module.exports = {
-    mongo: {
-        uris: 'mongodb://localhost:27017/philly-oauth-server'
-    }
-};
+  superscript: {
+    factSystem: {
+      clean: true
+    },
+    importFile: './data.json',
+    mongoURI: 'mongodb://mongodb/SuperScriptSPA',
+    pluginsPath: `${process.cwd()}/plugins`
+  },
+  logLevel: 'ERROR'
+}

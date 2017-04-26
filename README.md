@@ -10,12 +10,19 @@ SuperScript Single Page Application is
 * Embrace WeakAI in minutes.
 * Adopt chatbot quickly.
 
+## Deps
+
+Node.js v7.1.6+ (leverage async/await)
+MongoDB
+
 ## Usage
 ```
 git clone https://github.com/Samurais/ss-spa.git
 cd ss-spa
 npm install
 bower install
+cp config/environment/development.sample.js config/environment/development.js
+cp config/log4js.sample.json config/log4js.json
 npm start
 open http://localhost:3001
 ```
