@@ -15,7 +15,7 @@
     "javascript",
     "superscript"
   ],
-  "author": "Hai Liang Wang<hailiang.hl.wang@gmail.com>",
+  "author": "Hai Liang Wang <hailiang.hl.wang@gmail.com>, mgechev <mgechev@gmail.com>",
   "engines": {
     "node": ">=7.1.6"
   },
@@ -33,5 +33,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
-  }
+  },
+  "maintainers": [],
+  "contributors": []
 }

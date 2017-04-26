@@ -1,8 +1,9 @@
 {
-  "name": "react-peerjs",
+  "name": "ss-spa",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
+    "Hai Liang Wang <hailiang.hl.wang@gmail.com>",
     "mgechev <mgechev@gmail.com>"
   ],
   "license": "MIT",
@@ -23,5 +24,13 @@
   },
   "resolutions": {
     "react": "~0.12.2"
-  }
+  },
+  "description": "SuperScript Single Page Application",
+  "keywords": [
+    "chatbot",
+    "nodejs",
+    "react",
+    "javascript",
+    "superscript"
+  ]
 }
