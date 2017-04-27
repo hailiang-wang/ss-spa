@@ -6,7 +6,7 @@
     "test": "node_modules/ava/cli.js",
     "parse": "node_modules/superscript/lib/bin/parse.js -p chat -o data.json -f",
     "start": "node app.js",
-    "dev:start": "node_modules/nodemon/bin/nodemon.js --ignore logs -e js,ss --exec 'npm run parse && npm start'"
+    "dev:start": "node_modules/nodemon/bin/nodemon.js --ignore logs --ignore test -e js,ss --exec 'npm run parse && npm start'"
   },
   "keywords": [
     "chatbot",

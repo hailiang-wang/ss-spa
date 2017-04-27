@@ -38,9 +38,11 @@ npm run dev:start
 
 ## Test
 ```
-npm start
+npm run dev:start
 npm test
 ```
+
+> npm test  -- --watch # to run testcase lively.
 
 # Thanks to
 
