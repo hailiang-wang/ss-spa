@@ -1,17 +1,4 @@
-// A generic set of chatting responses. This set mimicks the classic Eliza bot.
-
-+ *
-- I'm not sure I understand you fully.
-- Please go on.
-- That is interesting. Please continue.
-- Tell me more about that.
-- Does talking about this bother you?
-
-+ [*] (sorry|apologize|apology) [*]
-- Please don't apologize.
-- Apologies are not necessary.
-- I've told you that apologies are not required.
-- It did not bother me. Please continue.
+> topic elize
 
 + i remember (*)
 - Do you often think of <cap>?
@@ -299,3 +286,4 @@
 - Does this topic make you feel angry?
 - Is something making you feel angry?
 - Does using that kind of language make you feel better?
+< topic

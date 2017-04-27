@@ -4,6 +4,7 @@
 function ChatProxy() {
   EventEmitter.call(this);
   this._peers = {};
+  this._botResponse = {};
 }
 
 ChatProxy.prototype = Object.create(EventEmitter.prototype);
@@ -73,13 +74,17 @@ ChatProxy.prototype.connect = function (username) {
 
     /** Subscribe server:client message */
     self.socket.on('server:client', function (data) {
-      console.log('server:client', data)
-      self.emit(Topics.USER_MESSAGE, {
-        content: data.response.string || 'Oops, can not get message from SuperScript ...',
-        author: 'bot'
-      })
+      console.log('server:client message', data.response.createdAt)
+      if (!self._botResponse[data.response.createdAt]) {
+        self._botResponse[data.response.createdAt] = data
+        self.emit(Topics.USER_MESSAGE, {
+          content: data.response.string || 'Oops, can not get message from SuperScript ...',
+          author: 'bot'
+        })
 
-      self.emit(Topics.SUPERSCRIPT_RESPONSE, data)
+        self.emit(Topics.SUPERSCRIPT_RESPONSE, data)
+      }
+
     })
   });
   console.log('Connecting with username', username);
