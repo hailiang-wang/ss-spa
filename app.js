@@ -8,11 +8,16 @@ const Topics = require('./public/src/Topics.js');
 const app = new Koa();
 const path = require('path');
 const figlet = require('figlet')
-const port = process.env.PORT || 3001;
+const port = config.node.port || 3001;
 const logger = require('./services/logging.service').getLogger('app')
+const bodyParser = require('koa-bodyparser')
 const bot = require('./services/bot.service')
+const router = require('./routes')
 
 app.use(serve(path.join(__dirname, '/public')))
+app.use(bodyParser())
+app.use(router.routes())
+app.use(router.allowedMethods())
 
 const httpServer = app.listen(port, function () {
   figlet('SS SPA', function (err, data) {

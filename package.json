@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "SuperScript Single Page Application",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node_modules/ava/cli.js",
     "parse": "node_modules/superscript/lib/bin/parse.js -p chat -o data.json -f",
     "start": "node app.js",
-    "dev:start": "node_modules/nodemon/bin/nodemon.js --ignore logs --watch chat -e ss --exec 'npm run parse && npm start'"
+    "dev:start": "node_modules/nodemon/bin/nodemon.js --ignore logs -e js,ss --exec 'npm run parse && npm start'"
   },
   "keywords": [
     "chatbot",
@@ -23,6 +23,8 @@
   "dependencies": {
     "figlet": "^1.2.0",
     "koa": "^2.1.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.1.1",
     "koa-static": "^3.0.0",
     "lodash": "^4.17.4",
     "log4js": "^1.1.1",
@@ -33,7 +35,9 @@
     "superscript": "^1.1.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "ava": "^0.19.1",
+    "nodemon": "^1.11.0",
+    "superagent": "^3.5.2"
   },
   "maintainers": [],
   "contributors": []

@@ -8,6 +8,9 @@ env = env.toLowerCase()
 
 var all = {
   env: env,
+  node: {
+    port: 3001
+  },
   root: path.normalize(path.join(__dirname, '..', '..')),
   superscript: {
     factSystem: {
@@ -28,6 +31,6 @@ if (process.env.MONGO_DB_URI) {
   config.superscript.mongoURI = process.env.MONGO_DB_URI
 }
 
-console.log('configurations:', config)
+// console.log('configurations:', config)
 
 module.exports = config;
