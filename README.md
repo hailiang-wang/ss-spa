@@ -36,6 +36,12 @@ npm run dev:start
 > Note, in the browser, socket.io would reconnect to server when the app is restarted, it avoids reloading client page.
 
 
+## Test
+```
+npm start
+npm test
+```
+
 # Thanks to
 
 [WebRTC chat with React.js](http://blog.mgechev.com/2014/09/03/webrtc-peer-to-peer-chat-with-react/)
