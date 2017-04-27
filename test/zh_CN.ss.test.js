@@ -46,7 +46,7 @@ test('Test Alternates api:getReply(你毕业于哪个学校)', async function (t
 /**
  * Test Optionals
  */
-test.only('Test Optionals api:getReply(清河小营)', async function (t) {
+test('Test Optionals api:getReply(清河小营)', async function (t) {
     let reply = await getReply('清河小营')
     console.log('getReply(清河小营)', reply)
     t.is(reply.rc, 0, "Response code should be 0.")
@@ -54,10 +54,14 @@ test.only('Test Optionals api:getReply(清河小营)', async function (t) {
     t.pass()
 })
 
-test.only('Test Optionals api:getReply(清河小营校区)', async function (t) {
+test('Test Optionals api:getReply(清河小营校区)', async function (t) {
     let reply = await getReply('清河小营校区')
     console.log('getReply(清河小营校区)', reply)
     t.is(reply.rc, 0, "Response code should be 0.")
     t.is(reply.data.string, "我也在附近", "Reply string should be 我也在附近.")
     t.pass()
 })
+
+/**
+ * Test Segmenter 
+ */

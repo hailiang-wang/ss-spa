@@ -6,5 +6,5 @@ logs/*
 scripts/
 # config/environment/development.js
 config/environment/production.js
-
+.vscode
 */dist

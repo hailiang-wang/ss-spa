@@ -19,6 +19,7 @@ var all = {
     importFile: './data.json',
     mongoURI: 'mongodb://localhost/SuperScriptSPA',
     pluginsPath: `${process.cwd()}/plugins`,
+    messagePluginsPath: `${process.cwd()}/plugins_message`,
     historyCheckpoints: 100,
     conversationTimeout: 1000 * 60 * 30 // half an hour, conversation memory timeout
   },
