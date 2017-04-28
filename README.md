@@ -1,5 +1,5 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/samurais/ss-spa.svg?maxAge=2592000)](https://hub.docker.com/r/samurais/ss-spa/) [![Docker Stars](https://img.shields.io/docker/stars/samurais/ss-spa.svg?maxAge=2592000)](https://hub.docker.com/r/samurais/ss-spa/) [![Docker Layers](https://images.microbadger.com/badges/image/samurais/ss-spa.svg)](https://microbadger.com/#/images/samurais/ss-spa)
-
+[![](https://images.microbadger.com/badges/version/samurais/ss-spa.svg)](https://microbadger.com/images/samurais/ss-spa "Get your own version badge on microbadger.com")
 
 # Welcome
 ![](./docs/demo.gif)
