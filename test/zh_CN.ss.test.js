@@ -16,8 +16,11 @@ async function getReply(textMessage) {
     return result.body
 }
 
-
-test('Test api:getReply(hello)', async function (t) {
+/**
+ * Test Functional API
+ * Test api:getReply(hello)
+ */
+test.before(async t => {
     let reply = await getReply('hello')
     console.log('getReply(hello)', reply)
     t.is(reply.rc, 0, "Response code should be 0.")
@@ -30,7 +33,6 @@ test('Test api:getReply(hello)', async function (t) {
 test('Test Alternates api:getReply(你在哪个学校)', async function (t) {
     let reply = await getReply('你在哪个学校')
     console.log('getReply(你在哪个学校)', reply)
-    t.is(reply.rc, 0, "Response code should be 0.")
     t.is(reply.data.string, "北京信息科技大学", "Reply string should be 北京信息科技大学.")
     t.pass()
 })
@@ -38,7 +40,6 @@ test('Test Alternates api:getReply(你在哪个学校)', async function (t) {
 test('Test Alternates api:getReply(你毕业于哪个学校)', async function (t) {
     let reply = await getReply('你毕业于哪个学校')
     console.log('getReply(你毕业于哪个学校)', reply)
-    t.is(reply.rc, 0, "Response code should be 0.")
     t.is(reply.data.string, "北京信息科技大学", "Reply string should be 北京信息科技大学.")
     t.pass()
 })
@@ -49,7 +50,6 @@ test('Test Alternates api:getReply(你毕业于哪个学校)', async function (t
 test('Test Optionals api:getReply(清河小营)', async function (t) {
     let reply = await getReply('清河小营')
     console.log('getReply(清河小营)', reply)
-    t.is(reply.rc, 0, "Response code should be 0.")
     t.is(reply.data.string, "我也在附近", "Reply string should be 我也在附近.")
     t.pass()
 })
@@ -57,7 +57,6 @@ test('Test Optionals api:getReply(清河小营)', async function (t) {
 test('Test Optionals api:getReply(清河小营校区)', async function (t) {
     let reply = await getReply('清河小营校区')
     console.log('getReply(清河小营校区)', reply)
-    t.is(reply.rc, 0, "Response code should be 0.")
     t.is(reply.data.string, "我也在附近", "Reply string should be 我也在附近.")
     t.pass()
 })
@@ -65,3 +64,10 @@ test('Test Optionals api:getReply(清河小营校区)', async function (t) {
 /**
  * Test Segmenter 
  */
+test('Test Optionals api:getReply(聊天是一门艺术)', async function (t) {
+    let reply = await getReply('聊天是一门艺术')
+    console.log('getReply(聊天是一门艺术)', reply)
+    t.truthy(reply.data.lang_code === 'cmn', "我也在附近", "Reply string should be 我也在附近.")
+    t.truthy(reply.data.pos_chinese.length > 0, "Reply should contain pos_chinese.")
+    t.pass()
+})
