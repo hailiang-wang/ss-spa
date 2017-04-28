@@ -1,6 +1,6 @@
 {
   "name": "ss-spa",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SuperScript Single Page Application",
   "scripts": {
     "test": "node_modules/ava/cli.js",
@@ -29,17 +29,15 @@
     "koa-static": "^3.0.0",
     "lodash": "^4.17.4",
     "log4js": "^1.1.1",
-    "microloom": "^5.0.0",
-    "nodejieba": "^2.2.4",
     "peer": "~0.2.6",
     "socket.io": "~1.0.6",
     "ss-parser": "github:soulspirit1229/ss-parser",
-    "superscript": "^1.1.0"
+    "superscript": "^1.1.0",
+    "superagent": "^3.5.2"
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "nodemon": "^1.11.0",
-    "superagent": "^3.5.2"
+    "nodemon": "^1.11.0"
   },
   "maintainers": [],
   "contributors": []

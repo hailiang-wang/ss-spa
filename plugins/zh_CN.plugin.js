@@ -12,6 +12,6 @@ exports.checkMessageFeatures = async function (cb) {
 
     cb(null, {
         lang_code: this.message.lang_code,
-        pos_chinese: this.message.pos_chinese
+        nlp_chinese: this.message.nlp_chinese
     })
 }

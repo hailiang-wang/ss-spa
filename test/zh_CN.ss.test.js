@@ -67,7 +67,8 @@ test('Test Optionals api:getReply(清河小营校区)', async function (t) {
 test('Test Optionals api:getReply(聊天是一门艺术)', async function (t) {
     let reply = await getReply('聊天是一门艺术')
     console.log('getReply(聊天是一门艺术)', reply)
-    t.truthy(reply.data.lang_code === 'cmn', "我也在附近", "Reply string should be 我也在附近.")
-    t.truthy(reply.data.pos_chinese.length > 0, "Reply should contain pos_chinese.")
+    t.truthy(reply.data.lang_code === 'cmn', "Reply string should be 我也在附近.")
+    t.truthy(reply.data.nlp_chinese.cut.length > 0, "Reply should contain nlp_chinese.cut")
+    t.truthy(reply.data.nlp_chinese.keywords.length > 0, "Reply should contain nlp_chinese.keywords")
     t.pass()
 })
