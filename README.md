@@ -55,6 +55,7 @@ npm test
 To start app with docker-compose.
 ```
 docker pull tutum/mongodb:3.2
+docker pull samurais/hanlp-api:1.0.0
 docker pull samurais/ss-spa:0.0.1
 ./scripts/start-with-docker.sh
 open http://localhost:3001

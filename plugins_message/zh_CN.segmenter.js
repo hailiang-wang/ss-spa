@@ -6,7 +6,7 @@
 const franc = require('franc');
 const superagent = require("superagent");
 const config = require('../config/environment');
-const logger = require('../services/logging.service').getLogger('message/zh_CN.plugin')
+const logger = require('../services/logging.service').getLogger('message_plugin/zh_CN.plugin')
 
 /**
  * cut Chinese Sentence

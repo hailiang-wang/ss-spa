@@ -8,11 +8,11 @@ services:
     environment:
      - AUTH=no
   hanlp:
-    image: "samurais/hanlp-api:1.0.0"
+    image: "samurais/hanlp-api:latest"
     # ports:
     #  - 3002:3000
   web:
-    image: "samurais/ss-spa:0.0.3"
+    image: "samurais/ss-spa:latest"
     command: "node app.js"
     ports:
      - "3001:3001"

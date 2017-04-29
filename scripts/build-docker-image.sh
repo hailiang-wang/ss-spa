@@ -23,3 +23,4 @@ PACKAGE_VERSION=$(cat package.json \
 
 echo $PACKAGE_VERSION
 docker build --force-rm=true --tag samurais/ss-spa:$PACKAGE_VERSION .
+docker tag samurais/ss-spa:$PACKAGE_VERSION samurais/ss-spa:latest
