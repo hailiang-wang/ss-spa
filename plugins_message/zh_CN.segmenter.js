@@ -33,12 +33,12 @@ async function getKeywordsChineseSentence(data) {
 }
 
 const addCNWords = async function addCNWords(cb) {
-    logger.info('this.message', this.message.clean)
+    logger.debug('this.message', this.message.clean)
     let result = franc(this.message.clean, { minLength: 1 });
     this.message.lang_code = result
     if (result === 'cmn') {
         let cut = await cutChineseSentence({
-            "type": "nlp",
+            "type": "crf",
             "content": this.message.clean
         });
 
@@ -47,7 +47,7 @@ const addCNWords = async function addCNWords(cb) {
             "content": this.message.clean
         })
 
-        logger.info('nlp data', {
+        logger.debug('nlp data', {
             cut: cut,
             keywords: keywords
         })

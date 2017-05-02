@@ -72,3 +72,29 @@ test('Test Optionals api:getReply(聊天是一门艺术)', async function (t) {
     t.truthy(reply.data.nlp_chinese.keywords.length > 0, "Reply should contain nlp_chinese.keywords")
     t.pass()
 })
+
+/**
+ * Test Capture
+ */
+test('Test Capture Value', async function (t) {
+    let reply = await getReply('他在旧金山创立的对冲基金Numerai依靠人工智能算法来处理所有的交易')
+    console.log('getReply(他在旧金山创立的对冲基金Numerai依靠人工智能算法来处理所有的交易)', reply)
+    t.is(reply.data.string, 'Numerai是一家公司人工智能', 'Reply string should contain captured values.')
+    t.pass()
+})
+
+
+/**
+ * Test Capture with Word number
+ */
+test.only('Test Capture Value', async function (t) {
+    let reply = await getReply('家里冰箱坏了')
+    console.log('getReply(家里冰箱坏了)', reply)
+    t.is(reply.data.string, '冰箱坏了很多次了', 'Reply string should contain captured values.')
+    
+    reply = await getReply('家里灯坏了')
+    console.log('getReply(家里灯坏了)', reply)
+    t.is(reply.data.string, '', 'Reply string should not contain anything.')
+    
+    t.pass()
+})
