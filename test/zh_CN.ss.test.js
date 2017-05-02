@@ -30,14 +30,14 @@ test.before(async t => {
 /**
  * Test Alternates
  */
-test('Test Alternates api:getReply(你在哪个学校)', async function (t) {
+test('Test Trigger: Alternates api:getReply(你在哪个学校)', async function (t) {
     let reply = await getReply('你在哪个学校')
     console.log('getReply(你在哪个学校)', reply)
     t.is(reply.data.string, "北京信息科技大学", "Reply string should be 北京信息科技大学.")
     t.pass()
 })
 
-test('Test Alternates api:getReply(你毕业于哪个学校)', async function (t) {
+test('Test Trigger: Alternates api:getReply(你毕业于哪个学校)', async function (t) {
     let reply = await getReply('你毕业于哪个学校')
     console.log('getReply(你毕业于哪个学校)', reply)
     t.is(reply.data.string, "北京信息科技大学", "Reply string should be 北京信息科技大学.")
@@ -47,14 +47,14 @@ test('Test Alternates api:getReply(你毕业于哪个学校)', async function (t
 /**
  * Test Optionals
  */
-test('Test Optionals api:getReply(清河小营)', async function (t) {
+test('Test Trigger: Optionals api:getReply(清河小营)', async function (t) {
     let reply = await getReply('清河小营')
     console.log('getReply(清河小营)', reply)
     t.is(reply.data.string, "我也在附近", "Reply string should be 我也在附近.")
     t.pass()
 })
 
-test('Test Optionals api:getReply(清河小营校区)', async function (t) {
+test('Test Trigger: Optionals api:getReply(清河小营校区)', async function (t) {
     let reply = await getReply('清河小营校区')
     console.log('getReply(清河小营校区)', reply)
     t.is(reply.data.string, "我也在附近", "Reply string should be 我也在附近.")
@@ -64,7 +64,7 @@ test('Test Optionals api:getReply(清河小营校区)', async function (t) {
 /**
  * Test Segmenter 
  */
-test('Test Optionals api:getReply(聊天是一门艺术)', async function (t) {
+test('Test Trigger: Optionals api:getReply(聊天是一门艺术)', async function (t) {
     let reply = await getReply('聊天是一门艺术')
     console.log('getReply(聊天是一门艺术)', reply)
     t.truthy(reply.data.lang_code === 'cmn', "Reply string should be 我也在附近.")
@@ -76,14 +76,14 @@ test('Test Optionals api:getReply(聊天是一门艺术)', async function (t) {
 /**
  * Test Capture value
  */
-test('Test Capture Value', async function (t) {
+test('Test Trigger: Capture Value', async function (t) {
     let reply = await getReply('他在旧金山创立的对冲基金Numerai依靠人工智能算法来处理所有的交易')
     console.log('getReply(他在旧金山创立的对冲基金Numerai依靠人工智能算法来处理所有的交易)', reply)
     t.is(reply.data.string, 'Numerai是一家公司人工智能', 'Reply string should contain captured values.')
     t.pass()
 })
 
-test('Test Capture Value with word number', async function (t) {
+test('Test Trigger: Capture Value with word number', async function (t) {
     let reply = await getReply('家里冰箱坏了')
     console.log('getReply(家里冰箱坏了)', reply)
     t.is(reply.data.string, '冰箱坏了很多次了', 'Reply string should contain captured values.')
@@ -95,7 +95,7 @@ test('Test Capture Value with word number', async function (t) {
     t.pass()
 })
 
-test('Test Capture Value with Min-max wildcards', async function (t) {
+test('Test Trigger: Capture Value with Min-max wildcards', async function (t) {
     let reply = await getReply('今天是五一劳动节')
     console.log('getReply(今天是五一劳动节)', reply)
     t.is(reply.data.string, '祝大家玩的开心', 'Reply string should be resonable.')
@@ -103,6 +103,14 @@ test('Test Capture Value with Min-max wildcards', async function (t) {
     reply = await getReply('今天是节日')
     console.log('getReply(今天是节日)', reply)
     t.is(reply.data.string, '', 'Reply string should not contain anything')
+
+    t.pass()
+})
+
+test('Test Trigger: Parts of speech', async function (t) {
+    let reply = await getReply('清华大学是中国首屈一指的学府')
+    console.log('getReply(清华大学是中国首屈一指的学府)', reply)
+    t.is(reply.data.string, '北京邮电大学也是', 'Reply string should be resonable.')
 
     t.pass()
 })

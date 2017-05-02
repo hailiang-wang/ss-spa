@@ -13,6 +13,9 @@
 + 聊天是一门艺术
 - {keep} ^checkMessageFeatures() 编程是一项工艺
 
++ <nouns>是中国首屈一指的学府
+- {keep} ^checkMessageFeatures() 北京邮电大学也是
+
 // Generic wildcards
 + 他在旧金山创立的对冲基金 (*) 依靠 (*) 算法来处理所有的交易
 - {keep} <cap1>是一家公司<cap2>
