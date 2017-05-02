@@ -6,48 +6,48 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "sJbQpHnl",
-                "HaSjrTI9",
-                "Z9dKhpLD",
-                "PjDu7RaZ",
-                "PWg40Fgp",
-                "Dmcyo5hF",
-                "iZgcOr8W",
-                "AblFqe8J",
-                "zkR5gjnL",
-                "rFI8v33g",
-                "gRFfTAA2",
-                "7mhFaRGs",
-                "TdFCJGr0",
-                "4yJjCrcT",
-                "7eT7YkV8",
-                "iPsXRfr0",
-                "BVSiBXno",
-                "HGRT9vID",
-                "cxQmr3kR",
-                "kXMEENDg",
-                "u15x4Kpf",
-                "LbIqqTEr",
-                "mGtyAT9S",
-                "udYBTWL9",
-                "ArRbnYUm",
-                "vCEdtM2X",
-                "cvQhBtoC",
-                "RkWUAa4c",
-                "mPVGPOOA",
-                "tuHuXF9i",
-                "KeiIHi7a",
-                "dgqAK5Gc",
-                "VDMEmFce",
-                "qldVaBZB",
-                "a4aCYsFv",
-                "FLwfPonf",
-                "QuOeF1Wx",
-                "UbkqwGST",
-                "818JzVhv",
-                "WTO6U0Aw",
-                "WTF3MpSg",
-                "uPiXdb82"
+                "DdQsOUSI",
+                "LrB4SFSd",
+                "jpkXrr7E",
+                "I82ii3xf",
+                "ctrjXqDT",
+                "p2wNHrdK",
+                "KO28ywXV",
+                "M59DJ13a",
+                "oqJn9ZIF",
+                "wwQMgXMM",
+                "CHiWV8q7",
+                "j1TXHS2c",
+                "BS1NWI47",
+                "vHEI8ZUN",
+                "uNu0gY72",
+                "oU79r2Ir",
+                "X5CwjdVD",
+                "R2pe2LyX",
+                "nTCuKSht",
+                "hqqzq83U",
+                "xnbCRRNR",
+                "3cZeENUE",
+                "42KYiVXg",
+                "yMGHVLOg",
+                "y3Vsix1y",
+                "9N2BvlQb",
+                "7tY0xnTw",
+                "coktzzIC",
+                "7qWc6wAO",
+                "qNGcSRcx",
+                "Hc6l6u2y",
+                "3AcIwzvU",
+                "9DtMOht5",
+                "PWMIKUg8",
+                "LWEtIaIh",
+                "UwzUiMQ7",
+                "rCJQ5FzJ",
+                "MXwphd6H",
+                "600ArAMn",
+                "3q9R24Kr",
+                "isD29G39",
+                "WXbG4aSW"
             ]
         },
         "zh": {
@@ -56,18 +56,18 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "TBF9mYvr",
-                "rJb7Yuin",
-                "0uPmBMLA",
-                "OzzUiPIY",
-                "BDWNvHWy",
-                "GO0L2MF4",
-                "BmMyTJTm"
+                "FAD3RLpX",
+                "SBl8mTAp",
+                "2GuPPA6x",
+                "wKnufonh",
+                "gVZ9boiW",
+                "C6pBrY9y",
+                "VpQO3DC6"
             ]
         }
     },
     "gambits": {
-        "sJbQpHnl": {
+        "DdQsOUSI": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -76,18 +76,18 @@
                 "clean": "i remember\\s*(.*)\\s*"
             },
             "replies": [
-                "WVSY5SWc",
-                "h6j9fVGp",
-                "rbHQVebl",
-                "KMTEbrb4",
-                "8EGOgqLU",
-                "wiWNX0ud"
+                "B4XmfDfA",
+                "Th8FOHTL",
+                "HUJsO333",
+                "lCUH8O7J",
+                "mHFXEvPu",
+                "jKR41vSA"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "HaSjrTI9": {
+        "LrB4SFSd": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -96,16 +96,16 @@
                 "clean": "do you remember\\s*(.*)\\s*"
             },
             "replies": [
-                "NO6Z2BPv",
-                "1KZai6pA",
-                "HZJ6y8tc",
-                "XCHbAIEx"
+                "8wCQkC05",
+                "XnmNM6yE",
+                "osv4xFbo",
+                "VQ8BTkaU"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "Z9dKhpLD": {
+        "jpkXrr7E": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -114,14 +114,14 @@
                 "clean": "you remember\\s*(.*)\\s*"
             },
             "replies": [
-                "q5jC2nU3",
-                "zinOiCa7"
+                "aD0N96Mk",
+                "fqCI6zan"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "PjDu7RaZ": {
+        "I82ii3xf": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -130,19 +130,19 @@
                 "clean": "i forget\\s*(.*)\\s*"
             },
             "replies": [
-                "SwRBmByv",
-                "FcFRiAuv",
-                "FrAhOtya",
-                "09mn13bG",
-                "vdg9irNo",
-                "aKE5hore",
-                "MP6WtmJc"
+                "w05kT6Vm",
+                "qws1EEJ6",
+                "WJmDQFaY",
+                "lb8wfoVQ",
+                "nVK0hI5X",
+                "la13Eafv",
+                "hFh8yibi"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "PWg40Fgp": {
+        "ctrjXqDT": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -151,17 +151,17 @@
                 "clean": "did you forget\\s*(.*)\\s*"
             },
             "replies": [
-                "YoXJufug",
-                "txDQaKri",
-                "42EYzV73",
-                "xmqQufpd",
-                "76p5a1BU"
+                "xmNsWrT9",
+                "sYMr7THC",
+                "kNeRdL2C",
+                "CzLmKBsv",
+                "BTl0Awdl"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "Dmcyo5hF": {
+        "p2wNHrdK": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -170,19 +170,19 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)if\\s*(.*)\\s*"
             },
             "replies": [
-                "Fy8LKfHY",
-                "hTS6nnkv",
-                "6Mnn6lde",
-                "KuIVwJAR",
-                "1tkUZsUO",
-                "OWPWCSGc",
-                "AD6TL4Rg"
+                "QAr4H3xM",
+                "Ia77SMRI",
+                "gMoW2zzJ",
+                "fkvBIrGQ",
+                "xKpXB6v1",
+                "I56w2at5",
+                "w71E06Ok"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "iZgcOr8W": {
+        "KO28ywXV": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -191,19 +191,19 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)i dreamed\\s*(.*)\\s*"
             },
             "replies": [
-                "8PSBInyU",
-                "VuGAdVcG",
-                "AAnAwxwv",
-                "r58JQ1GX",
-                "XAqWLhbV",
-                "OqyZqX1d",
-                "hYWtNRzk"
+                "EeR5k16F",
+                "oadQ4cWr",
+                "gcCxCkPs",
+                "DaxBqJVi",
+                "CtCarVXP",
+                "R2kEIjY1",
+                "6qrY42DF"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "AblFqe8J": {
+        "M59DJ13a": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -212,18 +212,18 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)perhaps(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "zw1xXJPd",
-                "X8rOkKpe",
-                "dVx4mHN5",
-                "omIBXdyA",
-                "YSkr6IcB",
-                "mPbMRYUY"
+                "ZwSTyLMb",
+                "7PHGknjz",
+                "MpCZazFG",
+                "PdxDOBK8",
+                "wB0UPeF1",
+                "ti9LCC8I"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "zkR5gjnL": {
+        "oqJn9ZIF": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -232,14 +232,14 @@
                 "clean": "\\s*(hello|hi|hey|howdy|hola|hai|yo)\\s*(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "VNMFQMk3",
-                "XfY1WE9z"
+                "m3SGy7WO",
+                "c7jmYBlc"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "rFI8v33g": {
+        "wwQMgXMM": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -248,18 +248,18 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)computer(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "mbbZn0f1",
-                "IuLaTkh4",
-                "zrFANbzd",
-                "W0qm228o",
-                "wnSgrjpu",
-                "kM8c8niD"
+                "oVuo7Enc",
+                "ukpC1sJ8",
+                "mIIouxTc",
+                "0MxrfLbr",
+                "dPUtdx0q",
+                "iUWe8il1"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "gRFfTAA2": {
+        "CHiWV8q7": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -268,16 +268,16 @@
                 "clean": "am i\\s*(.*)\\s*"
             },
             "replies": [
-                "HuHaKtwq",
-                "x8CV7pAI",
-                "hlTtnLtK",
-                "D5TXQLbX"
+                "TLkLtZXb",
+                "iCJr9Klm",
+                "um6Flda1",
+                "pJzuIxRG"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "7mhFaRGs": {
+        "j1TXHS2c": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -286,18 +286,18 @@
                 "clean": "are you\\s*(.*)\\s*"
             },
             "replies": [
-                "vh49pnkg",
-                "BDSDvIKo",
-                "hVXroLQn",
-                "claxSVAe",
-                "uqDDijr5",
-                "Y3BUbUqy"
+                "K8G6XBb4",
+                "uNOUd2a3",
+                "SV4Z7C6E",
+                "8PLn3nuE",
+                "UbGEYmdT",
+                "OjpAM68K"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "TdFCJGr0": {
+        "BS1NWI47": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -306,16 +306,16 @@
                 "clean": "you are\\s*(.*)\\s*"
             },
             "replies": [
-                "HnyBaXIe",
-                "qtXePdQy",
-                "RPaGUJwV",
-                "7bFlC7P2"
+                "OXukDiuJ",
+                "TJeafHn6",
+                "iRLkMAag",
+                "5vwqCFhg"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "4yJjCrcT": {
+        "vHEI8ZUN": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -324,17 +324,17 @@
                 "clean": "(?:\\s*(?:.*)\\s*)?are\\s*(.*)\\s*"
             },
             "replies": [
-                "sOI9uAXZ",
-                "dnOOi0B2",
-                "zyGJhELr",
-                "ozL8Ew2J",
-                "MD2WMxZg"
+                "0bJkfeFD",
+                "eP0ApJzQ",
+                "ex55Jt4S",
+                "C9GDQZ2R",
+                "i1wgwo9v"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "7eT7YkV8": {
+        "uNu0gY72": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -343,18 +343,18 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)your\\s*(.*)\\s*"
             },
             "replies": [
-                "J983XIkv",
-                "13vfBGz4",
-                "s4aKMGBG",
-                "YJv0FrJB",
-                "nQJ4RVe0",
-                "dWPP8qoe"
+                "ZwDILbbv",
+                "HKUceKxK",
+                "4KTAhsCE",
+                "RNeHcg23",
+                "wdRCy6tG",
+                "MCQ3FV9W"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "iPsXRfr0": {
+        "oU79r2Ir": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -363,17 +363,17 @@
                 "clean": "was i\\s*(.*)\\s*"
             },
             "replies": [
-                "9msDPL6O",
-                "ucDLupik",
-                "xpDUjciw",
-                "mfA29HA4",
-                "jH9wLPxb"
+                "otDeEEgp",
+                "XHLkkCvS",
+                "IDzV8TIy",
+                "jK9FmBYy",
+                "hsBRIOGQ"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "BVSiBXno": {
+        "X5CwjdVD": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -382,15 +382,15 @@
                 "clean": "i was\\s*(.*)\\s*"
             },
             "replies": [
-                "MhAQubjX",
-                "ySPMzu7j",
-                "iDKzfmTn"
+                "Shn5Miug",
+                "jusPciFm",
+                "MhYXS0ug"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "HGRT9vID": {
+        "R2pe2LyX": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -399,17 +399,17 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)was you\\s*(.*)\\s*"
             },
             "replies": [
-                "3dRJqUHy",
-                "80GFeWCT",
-                "LT3a7GRk",
-                "mqbTpDzy",
-                "U2bk8BqW"
+                "Me99I3Q2",
+                "18v7FHY4",
+                "mIxqK84q",
+                "bYSrDc3e",
+                "9qnLRa5V"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "cxQmr3kR": {
+        "nTCuKSht": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -418,18 +418,18 @@
                 "clean": "i\\s*(desire|want|need)\\s*\\s*(.*)\\s*"
             },
             "replies": [
-                "pxR3WaQW",
-                "u6fT2ObR",
-                "FEuv4P3b",
-                "ZQxdZhkE",
-                "r3zsQvYB",
-                "UVJR79Ul"
+                "Of08IRtQ",
+                "uI0kmJAP",
+                "0tEEYKFO",
+                "vXJMoadC",
+                "Rx5eWXm8",
+                "gdeR8UpI"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "kXMEENDg": {
+        "hqqzq83U": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -438,16 +438,16 @@
                 "clean": "i am\\s*(sad|unhappy|mad|angry|pissed|depressed)\\s*(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "99uEYrBY",
-                "9pImsUSU",
-                "W3VhLTPR",
-                "TGo2cCtf"
+                "riuBQZ7Q",
+                "sJvHZgNv",
+                "buM2lEHd",
+                "uAvPPwhI"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "u15x4Kpf": {
+        "xnbCRRNR": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -456,16 +456,16 @@
                 "clean": "i am\\s*(happy|excited|glad)\\s*(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "qE2ZOP9Q",
-                "hyAuqH9L",
-                "MS3Yio7j",
-                "fsF3xj0n"
+                "kkZIel8e",
+                "1KUDJrgQ",
+                "wDWHMDz6",
+                "9jYtUZUi"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "LbIqqTEr": {
+        "3cZeENUE": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -474,15 +474,15 @@
                 "clean": "i\\s*(believe|think)\\s*\\s*(.*)\\s*"
             },
             "replies": [
-                "2KD96Z88",
-                "mCNdjXJ9",
-                "VJPNokHn"
+                "ugJyrDt7",
+                "MM67RKZm",
+                "3WnUHKjE"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "mGtyAT9S": {
+        "42KYiVXg": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -491,17 +491,17 @@
                 "clean": "i am\\s*(.*)\\s*"
             },
             "replies": [
-                "hBpbk1gE",
-                "H80q8LjI",
-                "S1RVS9R8",
-                "7SCRXcMW",
-                "1ZjwLk1D"
+                "o0fok9Jc",
+                "xMQAJ2HL",
+                "7WJSaJ4V",
+                "SrI6idLo",
+                "B2VoXBdJ"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "udYBTWL9": {
+        "yMGHVLOg": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -510,17 +510,17 @@
                 "clean": "i can not\\s*(.*)\\s*"
             },
             "replies": [
-                "xA1TNrf1",
-                "vVyssc0L",
-                "F79bwOI6",
-                "DiEnkOsh",
-                "g6s5eyFm"
+                "2V99Kuf8",
+                "qTC8bIsB",
+                "4gI3FFzp",
+                "vaesti1H",
+                "IL4SCa3d"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "ArRbnYUm": {
+        "y3Vsix1y": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -529,16 +529,16 @@
                 "clean": "i do not\\s*(.*)\\s*"
             },
             "replies": [
-                "d7FopDnC",
-                "TMqyBc9Z",
-                "NqqvlnAC",
-                "lsWc934Y"
+                "iG3eqFST",
+                "2MvtC021",
+                "TWebLfav",
+                "3Q9bKjEf"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "vCEdtM2X": {
+        "9N2BvlQb": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -547,16 +547,16 @@
                 "clean": "i feel\\s*(.*)\\s*"
             },
             "replies": [
-                "IgAX963H",
-                "4OQaddhG",
-                "1G4qGYoC",
-                "xyeKMqdN"
+                "FWNMlanC",
+                "JMFYAwyR",
+                "n9b9F8y3",
+                "Pv6CXWvJ"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "cvQhBtoC": {
+        "7tY0xnTw": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -565,16 +565,16 @@
                 "clean": "i\\s*(.*)\\s*you"
             },
             "replies": [
-                "LtKxty8O",
-                "cGob16G5",
-                "LXMpQPFk",
-                "4RD5S02w"
+                "uFD9xeD8",
+                "AAORHfiq",
+                "IF9WmDwD",
+                "hxO4EP8K"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "RkWUAa4c": {
+        "coktzzIC": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -583,19 +583,19 @@
                 "clean": "you\\s*(.*)\\s*me"
             },
             "replies": [
-                "xBPhHMui",
-                "OFEbGx8k",
-                "w0JUq4lI",
-                "3q4NK3fF",
-                "ItYqE64a",
-                "8LfwbGSP",
-                "h9U32yUs"
+                "b5vLhWsQ",
+                "obYMCMB3",
+                "OHEI9wN6",
+                "Qm0XMe2T",
+                "COesNm2R",
+                "6U74Yaxo",
+                "Z4XJtTGm"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "mPVGPOOA": {
+        "7qWc6wAO": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -604,16 +604,16 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)you\\s*(.*)\\s*"
             },
             "replies": [
-                "IeRZOZdO",
-                "XALyIv8I",
-                "h81TYLJD",
-                "5HKZxtOX"
+                "VUAKEoWB",
+                "A4VOhzNV",
+                "CvMR3EtX",
+                "RW11yL65"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "tuHuXF9i": {
+        "qNGcSRcx": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -622,17 +622,17 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)\\s*(yes|yeah|yep|yup)\\s*(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "zDseZRpW",
-                "iP2ngjrU",
-                "v6XEXF2L",
-                "NfY609Dl",
-                "1ltBu8ok"
+                "M4bAqeZ9",
+                "2pvjYI60",
+                "qMNBVLhZ",
+                "ljidHiJq",
+                "fSbITpQt"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "KeiIHi7a": {
+        "Hc6l6u2y": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -641,16 +641,16 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)\\s*(nope|nah)\\s*(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "T54wF8U0",
-                "X6H0bvBl",
-                "dLWcqZ5Z",
-                "5x1e7N43"
+                "jZBPZl5j",
+                "0IVogXWG",
+                "qnkAvhz3",
+                "wkKR87wh"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "dgqAK5Gc": {
+        "3AcIwzvU": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -663,7 +663,7 @@
             "conversation": null,
             "topic": "elize"
         },
-        "VDMEmFce": {
+        "9DtMOht5": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -672,19 +672,19 @@
                 "clean": "no one\\s*(.*)\\s*"
             },
             "replies": [
-                "2at6JviM",
-                "zH8eJvEZ",
-                "ZyUSZK7i",
-                "badSztTP",
-                "yvPHhkhA",
-                "7wBQnph5",
-                "bgDY7nBA"
+                "mzXi4J3E",
+                "WpC6PUDx",
+                "k7VwfhlY",
+                "zv8yf5u8",
+                "MLH4odP2",
+                "DaXrcyq5",
+                "lJb3y6hR"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "qldVaBZB": {
+        "PWMIKUg8": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -693,16 +693,16 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)my\\s*(mom|dad|mother|father|bro|brother|sis|sister|cousin|aunt|uncle)\\s*\\s*(.*)\\s*"
             },
             "replies": [
-                "eYoJRCYM",
-                "AGxuqdjj",
-                "ljIAYvJm",
-                "yOyQ31JB"
+                "lt7gkjKl",
+                "lRSHCnbL",
+                "nuirIonW",
+                "mu8CeYIl"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "a4aCYsFv": {
+        "LWEtIaIh": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -711,15 +711,15 @@
                 "clean": "can you\\s*(.*)\\s*"
             },
             "replies": [
-                "l8qUc9kh",
-                "kXiHneC5",
-                "J4nyLfum"
+                "eoGxHaNo",
+                "A2Gzb5ze",
+                "1k3HnJgI"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "FLwfPonf": {
+        "UwzUiMQ7": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -728,15 +728,15 @@
                 "clean": "can i\\s*(.*)\\s*"
             },
             "replies": [
-                "WfWe2vqh",
-                "hbzYUITl",
-                "xAFf6Dc0"
+                "wCkpKBpd",
+                "SjEbuE29",
+                "JB4MEA6y"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "QuOeF1Wx": {
+        "rCJQ5FzJ": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -745,21 +745,21 @@
                 "clean": "\\s*(what|who|when|where|how)\\s*(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "fJ24cn7s",
-                "h0O0mjp3",
-                "A1wz0Uj7",
-                "r6jP9dCn",
-                "jE5BqEMp",
-                "ZozyXDpv",
-                "c5voLH9d",
-                "NkRMmhxG",
-                "8ycP6tR8"
+                "f4JgkXwJ",
+                "68qaXEk4",
+                "zuQonkgO",
+                "MOz7Mny7",
+                "vJ17j74f",
+                "GEQnh996",
+                "NRb74ms3",
+                "XFt81BsQ",
+                "mslL4UUf"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "UbkqwGST": {
+        "MXwphd6H": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -768,16 +768,16 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)because(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "9Dy7JAw2",
-                "af0dyPJA",
-                "XzchOeZa",
-                "71ri3g7G"
+                "PSB38BeR",
+                "KPGfnjtE",
+                "F5miwAhQ",
+                "jya5A3qf"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "818JzVhv": {
+        "600ArAMn": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -786,16 +786,16 @@
                 "clean": "why do not you\\s*(.*)\\s*"
             },
             "replies": [
-                "Py7r2KsM",
-                "QlWz2sWL",
-                "mvovGsRl",
-                "G2NtOnnj"
+                "liXL1hCa",
+                "N551bNFV",
+                "pGV4lswx",
+                "uesr259r"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "WTO6U0Aw": {
+        "3q9R24Kr": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -804,16 +804,16 @@
                 "clean": "why can not i\\s*(.*)\\s*"
             },
             "replies": [
-                "1yHGbQxa",
-                "qQhFF9nU",
-                "51OMcqNt",
-                "chatCJh5"
+                "bBwSJY8H",
+                "L4hC7E0s",
+                "UxUDELXb",
+                "BYmwHqDE"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "WTF3MpSg": {
+        "isD29G39": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -822,21 +822,21 @@
                 "clean": "everyone\\s*(.*)\\s*"
             },
             "replies": [
-                "pm1qKl8n",
-                "H2cFfU26",
-                "a2negH9t",
-                "WEOrt1AQ",
-                "CgAXaGnV",
-                "iSJ3eBiW",
-                "iObK2UqU",
-                "sUXHCifn",
-                "MAciNDyf"
+                "erJcWi0y",
+                "fvvVDoqV",
+                "RAnMO48Z",
+                "hbljrcnu",
+                "q9rNPrl8",
+                "e4daccBO",
+                "GaVPuNth",
+                "fmeKtyHM",
+                "EyoMcPvX"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "uPiXdb82": {
+        "WXbG4aSW": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -845,18 +845,18 @@
                 "clean": "(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)\\s*(fuck|fucker|shit|damn|shut up|bitch)\\s*(?:(?:(?:)+(?:.*)(?:)+|(?:)+)|)"
             },
             "replies": [
-                "XsXtuoyv",
-                "OH5qrzLc",
-                "mNmAjjOR",
-                "77J4Yvi2",
-                "wn0W6PZI",
-                "UUT2VdpS"
+                "MZDS8Xty",
+                "XgujxvMy",
+                "okLapM2x",
+                "tQO7ZCjM",
+                "nI6byxl5",
+                "ExWafNxH"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "elize"
         },
-        "TBF9mYvr": {
+        "FAD3RLpX": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -865,13 +865,13 @@
                 "clean": "你好"
             },
             "replies": [
-                "ZI38UThz"
+                "zEzvutvU"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "zh"
         },
-        "rJb7Yuin": {
+        "SBl8mTAp": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -880,13 +880,13 @@
                 "clean": "你(在|毕业于)哪个学校"
             },
             "replies": [
-                "EraYYVa7"
+                "RUt8qr3o"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "zh"
         },
-        "0uPmBMLA": {
+        "2GuPPA6x": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -895,13 +895,13 @@
                 "clean": "清河小营(?:(?:)+(?:校区)(?:)+|(?:)+)"
             },
             "replies": [
-                "CxsPt2Bz"
+                "5259O7jf"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "zh"
         },
-        "OzzUiPIY": {
+        "wKnufonh": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -910,13 +910,13 @@
                 "clean": "聊天是一门艺术"
             },
             "replies": [
-                "fZg8Xn4s"
+                "WtC1rhPF"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "zh"
         },
-        "BDWNvHWy": {
+        "gVZ9boiW": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -925,13 +925,13 @@
                 "clean": "他在旧金山创立的对冲基金\\s*(.*)\\s*依靠\\s*(.*)\\s*算法来处理所有的交易"
             },
             "replies": [
-                "N2gUMsi4"
+                "Y2agNG6e"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "zh"
         },
-        "GO0L2MF4": {
+        "C6pBrY9y": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -940,13 +940,13 @@
                 "clean": "家里\\s*((?:[^\\s]){2})坏了"
             },
             "replies": [
-                "lodpaTSv"
+                "hurlDgFF"
             ],
             "conditional": null,
             "conversation": null,
             "topic": "zh"
         },
-        "BmMyTJTm": {
+        "VpQO3DC6": {
             "trigger": {
                 "flags": {},
                 "filter": null,
@@ -955,7 +955,7 @@
                 "clean": "今天是\\s*((?:[^\\s]){5,8})"
             },
             "replies": [
-                "LfSwh8Ns"
+                "xaqYmXvw"
             ],
             "conditional": null,
             "conversation": null,
@@ -963,1055 +963,1055 @@
         }
     },
     "replies": {
-        "WVSY5SWc": {
+        "B4XmfDfA": {
             "string": "Do you often think of <cap>?",
             "filter": null,
             "keep": false
         },
-        "h6j9fVGp": {
+        "Th8FOHTL": {
             "string": "Does thinking of <cap> bring anything else to mind?",
             "filter": null,
             "keep": false
         },
-        "rbHQVebl": {
+        "HUJsO333": {
             "string": "Why do you remember <cap> just now?",
             "filter": null,
             "keep": false
         },
-        "KMTEbrb4": {
+        "lCUH8O7J": {
             "string": "What in the present situation reminds you of <cap>?",
             "filter": null,
             "keep": false
         },
-        "8EGOgqLU": {
+        "mHFXEvPu": {
             "string": "What is the connection between me and <cap>?",
             "filter": null,
             "keep": false
         },
-        "wiWNX0ud": {
+        "jKR41vSA": {
             "string": "What else does <cap> remind you of?",
             "filter": null,
             "keep": false
         },
-        "NO6Z2BPv": {
+        "8wCQkC05": {
             "string": "Did you think I would forget <cap>?",
             "filter": null,
             "keep": false
         },
-        "1KZai6pA": {
+        "XnmNM6yE": {
             "string": "Why do you think I should recall <cap> now?",
             "filter": null,
             "keep": false
         },
-        "HZJ6y8tc": {
+        "osv4xFbo": {
             "string": "What about <cap>?",
             "filter": null,
             "keep": false
         },
-        "XCHbAIEx": {
+        "VQ8BTkaU": {
             "string": "You mentioned <cap>?",
             "filter": null,
             "keep": false
         },
-        "q5jC2nU3": {
+        "aD0N96Mk": {
             "string": "How could I forget <cap>?",
             "filter": null,
             "keep": false
         },
-        "zinOiCa7": {
+        "fqCI6zan": {
             "string": "What about <cap> should I remember?",
             "filter": null,
             "keep": false
         },
-        "SwRBmByv": {
+        "w05kT6Vm": {
             "string": "Can you think of why you might forget <cap>?",
             "filter": null,
             "keep": false
         },
-        "FcFRiAuv": {
+        "qws1EEJ6": {
             "string": "Why can't you remember <cap>?",
             "filter": null,
             "keep": false
         },
-        "FrAhOtya": {
+        "WJmDQFaY": {
             "string": "How often do you think of <cap>?",
             "filter": null,
             "keep": false
         },
-        "09mn13bG": {
+        "lb8wfoVQ": {
             "string": "Does it bother you to forget that?",
             "filter": null,
             "keep": false
         },
-        "vdg9irNo": {
+        "nVK0hI5X": {
             "string": "Could it be a mental block?",
             "filter": null,
             "keep": false
         },
-        "aKE5hore": {
+        "la13Eafv": {
             "string": "Are you generally forgetful?",
             "filter": null,
             "keep": false
         },
-        "MP6WtmJc": {
+        "hFh8yibi": {
             "string": "Do you think you are suppressing <cap>?",
             "filter": null,
             "keep": false
         },
-        "YoXJufug": {
+        "xmNsWrT9": {
             "string": "Why do you ask?",
             "filter": null,
             "keep": false
         },
-        "txDQaKri": {
+        "sYMr7THC": {
             "string": "Are you sure you told me?",
             "filter": null,
             "keep": false
         },
-        "42EYzV73": {
+        "kNeRdL2C": {
             "string": "Would it bother you if I forgot <cap>?",
             "filter": null,
             "keep": false
         },
-        "xmqQufpd": {
+        "CzLmKBsv": {
             "string": "Why should I recall <cap> just now?",
             "filter": null,
             "keep": false
         },
-        "76p5a1BU": {
+        "BTl0Awdl": {
             "string": "Tell me more about <cap>.",
             "filter": null,
             "keep": false
         },
-        "Fy8LKfHY": {
+        "QAr4H3xM": {
             "string": "Do you think it's likely that <cap>?",
             "filter": null,
             "keep": false
         },
-        "hTS6nnkv": {
+        "Ia77SMRI": {
             "string": "Do you wish that <cap>?",
             "filter": null,
             "keep": false
         },
-        "6Mnn6lde": {
+        "gMoW2zzJ": {
             "string": "What do you know about <cap>?",
             "filter": null,
             "keep": false
         },
-        "KuIVwJAR": {
+        "fkvBIrGQ": {
             "string": "Really, if <cap>?",
             "filter": null,
             "keep": false
         },
-        "1tkUZsUO": {
+        "xKpXB6v1": {
             "string": "What would you do if <cap>?",
             "filter": null,
             "keep": false
         },
-        "OWPWCSGc": {
+        "I56w2at5": {
             "string": "But what are the chances that <cap>?",
             "filter": null,
             "keep": false
         },
-        "AD6TL4Rg": {
+        "w71E06Ok": {
             "string": "What does this speculation lead to?",
             "filter": null,
             "keep": false
         },
-        "8PSBInyU": {
+        "EeR5k16F": {
             "string": "Really, <cap>?",
             "filter": null,
             "keep": false
         },
-        "VuGAdVcG": {
+        "oadQ4cWr": {
             "string": "Have you ever fantasized <cap> while you were awake?",
             "filter": null,
             "keep": false
         },
-        "AAnAwxwv": {
+        "gcCxCkPs": {
             "string": "Have you ever dreamed <cap> before?",
             "filter": null,
             "keep": false
         },
-        "r58JQ1GX": {
+        "DaxBqJVi": {
             "string": "What does that dream suggest to you?",
             "filter": null,
             "keep": false
         },
-        "XAqWLhbV": {
+        "CtCarVXP": {
             "string": "Do you dream often?",
             "filter": null,
             "keep": false
         },
-        "OqyZqX1d": {
+        "R2kEIjY1": {
             "string": "What persons appear in your dreams?",
             "filter": null,
             "keep": false
         },
-        "hYWtNRzk": {
+        "6qrY42DF": {
             "string": "Do you believe that dreams have something to do with your problem?",
             "filter": null,
             "keep": false
         },
-        "zw1xXJPd": {
+        "ZwSTyLMb": {
             "string": "You don't seem quite certain.",
             "filter": null,
             "keep": false
         },
-        "X8rOkKpe": {
+        "7PHGknjz": {
             "string": "Why the uncertain tone?",
             "filter": null,
             "keep": false
         },
-        "dVx4mHN5": {
+        "MpCZazFG": {
             "string": "Can't you be more positive?",
             "filter": null,
             "keep": false
         },
-        "omIBXdyA": {
+        "PdxDOBK8": {
             "string": "You aren't sure?",
             "filter": null,
             "keep": false
         },
-        "YSkr6IcB": {
+        "wB0UPeF1": {
             "string": "Don't you know?",
             "filter": null,
             "keep": false
         },
-        "mPbMRYUY": {
+        "ti9LCC8I": {
             "string": "How likely, would you estimate?",
             "filter": null,
             "keep": false
         },
-        "VNMFQMk3": {
+        "m3SGy7WO": {
             "string": "How do you do. Please state your problem.",
             "filter": null,
             "keep": false
         },
-        "XfY1WE9z": {
+        "c7jmYBlc": {
             "string": "Hi. What seems to be your problem?",
             "filter": null,
             "keep": false
         },
-        "mbbZn0f1": {
+        "oVuo7Enc": {
             "string": "Do computers worry you?",
             "filter": null,
             "keep": false
         },
-        "IuLaTkh4": {
+        "ukpC1sJ8": {
             "string": "Why do you mention computers?",
             "filter": null,
             "keep": false
         },
-        "zrFANbzd": {
+        "mIIouxTc": {
             "string": "What do you think machines have to do with your problem?",
             "filter": null,
             "keep": false
         },
-        "W0qm228o": {
+        "0MxrfLbr": {
             "string": "Don't you think computers can help people?",
             "filter": null,
             "keep": false
         },
-        "wnSgrjpu": {
+        "dPUtdx0q": {
             "string": "What about machines worries you?",
             "filter": null,
             "keep": false
         },
-        "kM8c8niD": {
+        "iUWe8il1": {
             "string": "What do you think about machines?",
             "filter": null,
             "keep": false
         },
-        "HuHaKtwq": {
+        "TLkLtZXb": {
             "string": "Do you believe you are <cap>?",
             "filter": null,
             "keep": false
         },
-        "x8CV7pAI": {
+        "iCJr9Klm": {
             "string": "Would you want to be <cap>?",
             "filter": null,
             "keep": false
         },
-        "hlTtnLtK": {
+        "um6Flda1": {
             "string": "Do you wish I would tell you you are <cap>?",
             "filter": null,
             "keep": false
         },
-        "D5TXQLbX": {
+        "pJzuIxRG": {
             "string": "What would it mean if you were <cap>?",
             "filter": null,
             "keep": false
         },
-        "vh49pnkg": {
+        "K8G6XBb4": {
             "string": "Are you interested in whether I am <cap> or not?",
             "filter": null,
             "keep": false
         },
-        "BDSDvIKo": {
+        "uNOUd2a3": {
             "string": "Would you prefer if I weren't <cap>?",
             "filter": null,
             "keep": false
         },
-        "hVXroLQn": {
+        "SV4Z7C6E": {
             "string": "Perhaps I am <cap> in your fantasies.",
             "filter": null,
             "keep": false
         },
-        "claxSVAe": {
+        "8PLn3nuE": {
             "string": "Do you sometimes think I am <cap>?",
             "filter": null,
             "keep": false
         },
-        "uqDDijr5": {
+        "UbGEYmdT": {
             "string": "Would it matter to you?",
             "filter": null,
             "keep": false
         },
-        "Y3BUbUqy": {
+        "OjpAM68K": {
             "string": "What if I were <cap>?",
             "filter": null,
             "keep": false
         },
-        "HnyBaXIe": {
+        "OXukDiuJ": {
             "string": "What makes you think I am <star>?",
             "filter": null,
             "keep": false
         },
-        "qtXePdQy": {
+        "TJeafHn6": {
             "string": "Does it please you to believe I am <star>?",
             "filter": null,
             "keep": false
         },
-        "RPaGUJwV": {
+        "iRLkMAag": {
             "string": "Do you sometimes wish you were <star>?",
             "filter": null,
             "keep": false
         },
-        "7bFlC7P2": {
+        "5vwqCFhg": {
             "string": "Perhaps you would like to be <star>.",
             "filter": null,
             "keep": false
         },
-        "sOI9uAXZ": {
+        "0bJkfeFD": {
             "string": "Did you think they might not be <cap2>?",
             "filter": null,
             "keep": false
         },
-        "dnOOi0B2": {
+        "eP0ApJzQ": {
             "string": "Would you like it if they were not <cap2>?",
             "filter": null,
             "keep": false
         },
-        "zyGJhELr": {
+        "ex55Jt4S": {
             "string": "What if they were not <cap2>?",
             "filter": null,
             "keep": false
         },
-        "ozL8Ew2J": {
+        "C9GDQZ2R": {
             "string": "Are they always <cap2>?",
             "filter": null,
             "keep": false
         },
-        "MD2WMxZg": {
+        "i1wgwo9v": {
             "string": "Are you positive they are <cap2>?",
             "filter": null,
             "keep": false
         },
-        "J983XIkv": {
+        "ZwDILbbv": {
             "string": "Why are you concerned over my <cap>?",
             "filter": null,
             "keep": false
         },
-        "13vfBGz4": {
+        "HKUceKxK": {
             "string": "What about your own <cap>?",
             "filter": null,
             "keep": false
         },
-        "s4aKMGBG": {
+        "4KTAhsCE": {
             "string": "Are you worried about someone else's <cap>?",
             "filter": null,
             "keep": false
         },
-        "YJv0FrJB": {
+        "RNeHcg23": {
             "string": "Really, my <cap>?",
             "filter": null,
             "keep": false
         },
-        "nQJ4RVe0": {
+        "wdRCy6tG": {
             "string": "What makes you think of my <cap>?",
             "filter": null,
             "keep": false
         },
-        "dWPP8qoe": {
+        "MCQ3FV9W": {
             "string": "Do you want my <cap>?",
             "filter": null,
             "keep": false
         },
-        "9msDPL6O": {
+        "otDeEEgp": {
             "string": "What if you were <cap>?",
             "filter": null,
             "keep": false
         },
-        "ucDLupik": {
+        "XHLkkCvS": {
             "string": "Do you think you were <cap>?",
             "filter": null,
             "keep": false
         },
-        "xpDUjciw": {
+        "IDzV8TIy": {
             "string": "Were you <cap>?",
             "filter": null,
             "keep": false
         },
-        "mfA29HA4": {
+        "jK9FmBYy": {
             "string": "What would it mean if you were <cap>?",
             "filter": null,
             "keep": false
         },
-        "jH9wLPxb": {
+        "hsBRIOGQ": {
             "string": "What does '<cap>' suggest to you?",
             "filter": null,
             "keep": false
         },
-        "MhAQubjX": {
+        "Shn5Miug": {
             "string": "Were you really?",
             "filter": null,
             "keep": false
         },
-        "ySPMzu7j": {
+        "jusPciFm": {
             "string": "Why do you tell me you were <cap> now?",
             "filter": null,
             "keep": false
         },
-        "iDKzfmTn": {
+        "MhYXS0ug": {
             "string": "Perhaps I already know you were <cap>.",
             "filter": null,
             "keep": false
         },
-        "3dRJqUHy": {
+        "Me99I3Q2": {
             "string": "Would you like to believe I was <cap>?",
             "filter": null,
             "keep": false
         },
-        "80GFeWCT": {
+        "18v7FHY4": {
             "string": "What suggests that I was <cap>?",
             "filter": null,
             "keep": false
         },
-        "LT3a7GRk": {
+        "mIxqK84q": {
             "string": "What do you think?",
             "filter": null,
             "keep": false
         },
-        "mqbTpDzy": {
+        "bYSrDc3e": {
             "string": "Perhaps I was <cap>.",
             "filter": null,
             "keep": false
         },
-        "U2bk8BqW": {
+        "9qnLRa5V": {
             "string": "What if I had been <cap>?",
             "filter": null,
             "keep": false
         },
-        "pxR3WaQW": {
+        "Of08IRtQ": {
             "string": "What would it mean to you if you got <cap2>?",
             "filter": null,
             "keep": false
         },
-        "u6fT2ObR": {
+        "uI0kmJAP": {
             "string": "Why do you want <cap2>?",
             "filter": null,
             "keep": false
         },
-        "FEuv4P3b": {
+        "0tEEYKFO": {
             "string": "Suppose you got <cap2> soon.",
             "filter": null,
             "keep": false
         },
-        "ZQxdZhkE": {
+        "vXJMoadC": {
             "string": "What if you never got <cap2>?",
             "filter": null,
             "keep": false
         },
-        "r3zsQvYB": {
+        "Rx5eWXm8": {
             "string": "What would getting <cap2> mean to you?",
             "filter": null,
             "keep": false
         },
-        "UVJR79Ul": {
+        "gdeR8UpI": {
             "string": "What does wanting <cap2> have to do with this discussion?",
             "filter": null,
             "keep": false
         },
-        "99uEYrBY": {
+        "riuBQZ7Q": {
             "string": "I am sorry to hear that you are <cap>.",
             "filter": null,
             "keep": false
         },
-        "9pImsUSU": {
+        "sJvHZgNv": {
             "string": "Do you think coming here will help you not to be <cap>?",
             "filter": null,
             "keep": false
         },
-        "W3VhLTPR": {
+        "buM2lEHd": {
             "string": "I'm sure it's not pleasant to be <cap>.",
             "filter": null,
             "keep": false
         },
-        "TGo2cCtf": {
+        "uAvPPwhI": {
             "string": "Can you explain what made you <cap>?",
             "filter": null,
             "keep": false
         },
-        "qE2ZOP9Q": {
+        "kkZIel8e": {
             "string": "How have I helped you to be <cap>?",
             "filter": null,
             "keep": false
         },
-        "hyAuqH9L": {
+        "1KUDJrgQ": {
             "string": "Has your treatment made you <cap>?",
             "filter": null,
             "keep": false
         },
-        "MS3Yio7j": {
+        "wDWHMDz6": {
             "string": "What makes you <cap> just now?",
             "filter": null,
             "keep": false
         },
-        "fsF3xj0n": {
+        "9jYtUZUi": {
             "string": "Can you explain why you are <cap>?",
             "filter": null,
             "keep": false
         },
-        "2KD96Z88": {
+        "ugJyrDt7": {
             "string": "Do you really think so?",
             "filter": null,
             "keep": false
         },
-        "mCNdjXJ9": {
+        "MM67RKZm": {
             "string": "But you are not sure you <cap2>.",
             "filter": null,
             "keep": false
         },
-        "VJPNokHn": {
+        "3WnUHKjE": {
             "string": "Do you really doubt you <cap2>",
             "filter": null,
             "keep": false
         },
-        "hBpbk1gE": {
+        "o0fok9Jc": {
             "string": "Is it because you are <cap> that you came to me?",
             "filter": null,
             "keep": false
         },
-        "H80q8LjI": {
+        "xMQAJ2HL": {
             "string": "How long have you been <cap>?",
             "filter": null,
             "keep": false
         },
-        "S1RVS9R8": {
+        "7WJSaJ4V": {
             "string": "Do you believe it is normal to be <cap>?",
             "filter": null,
             "keep": false
         },
-        "7SCRXcMW": {
+        "SrI6idLo": {
             "string": "Do you enjoy being <cap>?",
             "filter": null,
             "keep": false
         },
-        "1ZjwLk1D": {
+        "B2VoXBdJ": {
             "string": "Do you know anyone else who is <cap>?",
             "filter": null,
             "keep": false
         },
-        "xA1TNrf1": {
+        "2V99Kuf8": {
             "string": "How do you know that you can't <cap>?",
             "filter": null,
             "keep": false
         },
-        "vVyssc0L": {
+        "qTC8bIsB": {
             "string": "Have you tried?",
             "filter": null,
             "keep": false
         },
-        "F79bwOI6": {
+        "4gI3FFzp": {
             "string": "Perhaps you could <cap> now.",
             "filter": null,
             "keep": false
         },
-        "DiEnkOsh": {
+        "vaesti1H": {
             "string": "Do you really want to be able to <cap>?",
             "filter": null,
             "keep": false
         },
-        "g6s5eyFm": {
+        "IL4SCa3d": {
             "string": "What if you could <cap>?",
             "filter": null,
             "keep": false
         },
-        "d7FopDnC": {
+        "iG3eqFST": {
             "string": "Don't you really <cap>?",
             "filter": null,
             "keep": false
         },
-        "TMqyBc9Z": {
+        "2MvtC021": {
             "string": "Why don't you <cap>?",
             "filter": null,
             "keep": false
         },
-        "NqqvlnAC": {
+        "TWebLfav": {
             "string": "Do you wish to be able to <cap>?",
             "filter": null,
             "keep": false
         },
-        "lsWc934Y": {
+        "3Q9bKjEf": {
             "string": "Does that trouble you?",
             "filter": null,
             "keep": false
         },
-        "IgAX963H": {
+        "FWNMlanC": {
             "string": "Tell me more about such feelings.",
             "filter": null,
             "keep": false
         },
-        "4OQaddhG": {
+        "JMFYAwyR": {
             "string": "Do you often feel <cap>?",
             "filter": null,
             "keep": false
         },
-        "1G4qGYoC": {
+        "n9b9F8y3": {
             "string": "Do you enjoy feeling <cap>?",
             "filter": null,
             "keep": false
         },
-        "xyeKMqdN": {
+        "Pv6CXWvJ": {
             "string": "Of what does feeling <cap> remind you?",
             "filter": null,
             "keep": false
         },
-        "LtKxty8O": {
+        "uFD9xeD8": {
             "string": "Perhaps in your fantasies we <cap> each other.",
             "filter": null,
             "keep": false
         },
-        "cGob16G5": {
+        "AAORHfiq": {
             "string": "Do you wish to <cap> me?",
             "filter": null,
             "keep": false
         },
-        "LXMpQPFk": {
+        "IF9WmDwD": {
             "string": "You seem to need to <cap> me.",
             "filter": null,
             "keep": false
         },
-        "4RD5S02w": {
+        "hxO4EP8K": {
             "string": "Do you <cap> anyone else?",
             "filter": null,
             "keep": false
         },
-        "xBPhHMui": {
+        "b5vLhWsQ": {
             "string": "Why do you think I <cap> you?",
             "filter": null,
             "keep": false
         },
-        "OFEbGx8k": {
+        "obYMCMB3": {
             "string": "You like to think I <cap> you -- don't you?",
             "filter": null,
             "keep": false
         },
-        "w0JUq4lI": {
+        "OHEI9wN6": {
             "string": "What makes you think I <cap> you?",
             "filter": null,
             "keep": false
         },
-        "3q4NK3fF": {
+        "Qm0XMe2T": {
             "string": "Really, I <cap> you?",
             "filter": null,
             "keep": false
         },
-        "ItYqE64a": {
+        "COesNm2R": {
             "string": "Do you wish to believe I <cap> you?",
             "filter": null,
             "keep": false
         },
-        "8LfwbGSP": {
+        "6U74Yaxo": {
             "string": "Suppose I did <cap> you -- what would that mean?",
             "filter": null,
             "keep": false
         },
-        "h9U32yUs": {
+        "Z4XJtTGm": {
             "string": "Does someone else believe I <cap> you?",
             "filter": null,
             "keep": false
         },
-        "IeRZOZdO": {
+        "VUAKEoWB": {
             "string": "We were discussing you -- not me.",
             "filter": null,
             "keep": false
         },
-        "XALyIv8I": {
+        "A4VOhzNV": {
             "string": "Oh, I <cap>?",
             "filter": null,
             "keep": false
         },
-        "h81TYLJD": {
+        "CvMR3EtX": {
             "string": "You're not really talking about me -- are you?",
             "filter": null,
             "keep": false
         },
-        "5HKZxtOX": {
+        "RW11yL65": {
             "string": "What are your feelings now?",
             "filter": null,
             "keep": false
         },
-        "zDseZRpW": {
+        "M4bAqeZ9": {
             "string": "Please go on.",
             "filter": null,
             "keep": false
         },
-        "iP2ngjrU": {
+        "2pvjYI60": {
             "string": "Please tell me more about this.",
             "filter": null,
             "keep": false
         },
-        "v6XEXF2L": {
+        "qMNBVLhZ": {
             "string": "Why don't you tell me a little more about this.",
             "filter": null,
             "keep": false
         },
-        "NfY609Dl": {
+        "ljidHiJq": {
             "string": "I see.",
             "filter": null,
             "keep": false
         },
-        "1ltBu8ok": {
+        "fSbITpQt": {
             "string": "I understand.",
             "filter": null,
             "keep": false
         },
-        "T54wF8U0": {
+        "jZBPZl5j": {
             "string": "Are you saying no just to be negative?",
             "filter": null,
             "keep": false
         },
-        "X6H0bvBl": {
+        "0IVogXWG": {
             "string": "Does this make you feel unhappy?",
             "filter": null,
             "keep": false
         },
-        "dLWcqZ5Z": {
+        "qnkAvhz3": {
             "string": "Why not?",
             "filter": null,
             "keep": false
         },
-        "5x1e7N43": {
+        "wkKR87wh": {
             "string": "Why 'no'?",
             "filter": null,
             "keep": false
         },
-        "2at6JviM": {
+        "mzXi4J3E": {
             "string": "Are you sure, no one <cap>?",
             "filter": null,
             "keep": false
         },
-        "zH8eJvEZ": {
+        "WpC6PUDx": {
             "string": "Surely someone <cap>.",
             "filter": null,
             "keep": false
         },
-        "ZyUSZK7i": {
+        "k7VwfhlY": {
             "string": "Can you think of anyone at all?",
             "filter": null,
             "keep": false
         },
-        "badSztTP": {
+        "zv8yf5u8": {
             "string": "Are you thinking of a very special person?",
             "filter": null,
             "keep": false
         },
-        "yvPHhkhA": {
+        "MLH4odP2": {
             "string": "Who, may I ask?",
             "filter": null,
             "keep": false
         },
-        "7wBQnph5": {
+        "DaXrcyq5": {
             "string": "You have a particular person in mind, don't you?",
             "filter": null,
             "keep": false
         },
-        "bgDY7nBA": {
+        "lJb3y6hR": {
             "string": "Who do you think you are talking about?",
             "filter": null,
             "keep": false
         },
-        "eYoJRCYM": {
+        "lt7gkjKl": {
             "string": "Tell me more about your family.",
             "filter": null,
             "keep": false
         },
-        "AGxuqdjj": {
+        "lRSHCnbL": {
             "string": "Who else in your family <cap2>?",
             "filter": null,
             "keep": false
         },
-        "ljIAYvJm": {
+        "nuirIonW": {
             "string": "Your <cap>?",
             "filter": null,
             "keep": false
         },
-        "yOyQ31JB": {
+        "mu8CeYIl": {
             "string": "What else comes to mind when you think of your <cap>?",
             "filter": null,
             "keep": false
         },
-        "l8qUc9kh": {
+        "eoGxHaNo": {
             "string": "You believe I can <cap> don't you?",
             "filter": null,
             "keep": false
         },
-        "kXiHneC5": {
+        "A2Gzb5ze": {
             "string": "You want me to be able to <cap>.",
             "filter": null,
             "keep": false
         },
-        "J4nyLfum": {
+        "1k3HnJgI": {
             "string": "Perhaps you would like to be able to <cap> yourself.",
             "filter": null,
             "keep": false
         },
-        "WfWe2vqh": {
+        "wCkpKBpd": {
             "string": "Whether or not you can <cap> depends on you more than on me.",
             "filter": null,
             "keep": false
         },
-        "hbzYUITl": {
+        "SjEbuE29": {
             "string": "Do you want to be able to <cap>?",
             "filter": null,
             "keep": false
         },
-        "xAFf6Dc0": {
+        "JB4MEA6y": {
             "string": "Perhaps you don't want to <cap>.",
             "filter": null,
             "keep": false
         },
-        "fJ24cn7s": {
+        "f4JgkXwJ": {
             "string": "Why do you ask?",
             "filter": null,
             "keep": false
         },
-        "h0O0mjp3": {
+        "68qaXEk4": {
             "string": "Does that question interest you?",
             "filter": null,
             "keep": false
         },
-        "A1wz0Uj7": {
+        "zuQonkgO": {
             "string": "What is it you really want to know?",
             "filter": null,
             "keep": false
         },
-        "r6jP9dCn": {
+        "MOz7Mny7": {
             "string": "Are such questions much on your mind?",
             "filter": null,
             "keep": false
         },
-        "jE5BqEMp": {
+        "vJ17j74f": {
             "string": "What answer would please you most?",
             "filter": null,
             "keep": false
         },
-        "ZozyXDpv": {
+        "GEQnh996": {
             "string": "What do you think?",
             "filter": null,
             "keep": false
         },
-        "c5voLH9d": {
+        "NRb74ms3": {
             "string": "What comes to mind when you ask that?",
             "filter": null,
             "keep": false
         },
-        "NkRMmhxG": {
+        "XFt81BsQ": {
             "string": "Have you asked such questions before?",
             "filter": null,
             "keep": false
         },
-        "8ycP6tR8": {
+        "mslL4UUf": {
             "string": "Have you asked anyone else?",
             "filter": null,
             "keep": false
         },
-        "9Dy7JAw2": {
+        "PSB38BeR": {
             "string": "Is that the real reason?",
             "filter": null,
             "keep": false
         },
-        "af0dyPJA": {
+        "KPGfnjtE": {
             "string": "Don't any other reasons come to mind?",
             "filter": null,
             "keep": false
         },
-        "XzchOeZa": {
+        "F5miwAhQ": {
             "string": "Does that reason seem to explain anything else?",
             "filter": null,
             "keep": false
         },
-        "71ri3g7G": {
+        "jya5A3qf": {
             "string": "What other reasons might there be?",
             "filter": null,
             "keep": false
         },
-        "Py7r2KsM": {
+        "liXL1hCa": {
             "string": "Do you believe I don't <cap>?",
             "filter": null,
             "keep": false
         },
-        "QlWz2sWL": {
+        "N551bNFV": {
             "string": "Perhaps I will <cap> in good time.",
             "filter": null,
             "keep": false
         },
-        "mvovGsRl": {
+        "pGV4lswx": {
             "string": "Should you <cap> yourself?",
             "filter": null,
             "keep": false
         },
-        "G2NtOnnj": {
+        "uesr259r": {
             "string": "You want me to <cap>?",
             "filter": null,
             "keep": false
         },
-        "1yHGbQxa": {
+        "bBwSJY8H": {
             "string": "Do you think you should be able to <cap>?",
             "filter": null,
             "keep": false
         },
-        "qQhFF9nU": {
+        "L4hC7E0s": {
             "string": "Do you want to be able to <cap>?",
             "filter": null,
             "keep": false
         },
-        "51OMcqNt": {
+        "UxUDELXb": {
             "string": "Do you believe this will help you to <cap>?",
             "filter": null,
             "keep": false
         },
-        "chatCJh5": {
+        "BYmwHqDE": {
             "string": "Have you any idea why you can't <cap>?",
             "filter": null,
             "keep": false
         },
-        "pm1qKl8n": {
+        "erJcWi0y": {
             "string": "Really, everyone?",
             "filter": null,
             "keep": false
         },
-        "H2cFfU26": {
+        "fvvVDoqV": {
             "string": "Surely not everyone.",
             "filter": null,
             "keep": false
         },
-        "a2negH9t": {
+        "RAnMO48Z": {
             "string": "Can you think of anyone in particular?",
             "filter": null,
             "keep": false
         },
-        "WEOrt1AQ": {
+        "hbljrcnu": {
             "string": "Who, for example?",
             "filter": null,
             "keep": false
         },
-        "CgAXaGnV": {
+        "q9rNPrl8": {
             "string": "Are you thinking of a very special person?",
             "filter": null,
             "keep": false
         },
-        "iSJ3eBiW": {
+        "e4daccBO": {
             "string": "Who, may I ask?",
             "filter": null,
             "keep": false
         },
-        "iObK2UqU": {
+        "GaVPuNth": {
             "string": "Someone special perhaps?",
             "filter": null,
             "keep": false
         },
-        "sUXHCifn": {
+        "fmeKtyHM": {
             "string": "You have a particular reason in mind, don't you?",
             "filter": null,
             "keep": false
         },
-        "MAciNDyf": {
+        "EyoMcPvX": {
             "string": "Who do you think you're talking about?",
             "filter": null,
             "keep": false
         },
-        "XsXtuoyv": {
+        "MZDS8Xty": {
             "string": "Does it make you feel strong to use that kind of language?",
             "filter": null,
             "keep": false
         },
-        "OH5qrzLc": {
+        "XgujxvMy": {
             "string": "Are you venting your feelings now?",
             "filter": null,
             "keep": false
         },
-        "mNmAjjOR": {
+        "okLapM2x": {
             "string": "Are you angry?",
             "filter": null,
             "keep": false
         },
-        "77J4Yvi2": {
+        "tQO7ZCjM": {
             "string": "Does this topic make you feel angry?",
             "filter": null,
             "keep": false
         },
-        "wn0W6PZI": {
+        "nI6byxl5": {
             "string": "Is something making you feel angry?",
             "filter": null,
             "keep": false
         },
-        "UUT2VdpS": {
+        "ExWafNxH": {
             "string": "Does using that kind of language make you feel better?",
             "filter": null,
             "keep": false
         },
-        "ZI38UThz": {
+        "zEzvutvU": {
             "string": "你好",
             "filter": null,
             "keep": false
         },
-        "EraYYVa7": {
+        "RUt8qr3o": {
             "string": "北京信息科技大学",
             "filter": null,
             "keep": "keep"
         },
-        "CxsPt2Bz": {
+        "5259O7jf": {
             "string": "我也在附近",
             "filter": null,
             "keep": "keep"
         },
-        "fZg8Xn4s": {
+        "WtC1rhPF": {
             "string": "^checkMessageFeatures() 编程是一项工艺",
             "filter": null,
             "keep": "keep"
         },
-        "N2gUMsi4": {
+        "Y2agNG6e": {
             "string": "<cap1>是一家公司<cap2>",
             "filter": null,
             "keep": "keep"
         },
-        "lodpaTSv": {
+        "hurlDgFF": {
             "string": "<cap1>坏了很多次了",
             "filter": null,
             "keep": "keep"
         },
-        "LfSwh8Ns": {
+        "xaqYmXvw": {
             "string": "祝大家玩的开心",
             "filter": null,
             "keep": "keep"
         }
     },
     "checksums": {
-        "chat/zh_CN.ss": "e4e1d15f693da53b4fb2c70c5a351aacbbf2cb75",
-        "chat/elize.ss": "fb3581000acef4a85f39f902b6c4383a7c803b63"
+        "chat/elize.ss": "fb3581000acef4a85f39f902b6c4383a7c803b63",
+        "chat/zh_CN.ss": "2e161529be482dd68536a75b88f34c0f69505926"
     },
     "version": 1
 }
