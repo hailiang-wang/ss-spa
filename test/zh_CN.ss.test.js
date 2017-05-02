@@ -74,7 +74,7 @@ test('Test Optionals api:getReply(聊天是一门艺术)', async function (t) {
 })
 
 /**
- * Test Capture
+ * Test Capture value
  */
 test('Test Capture Value', async function (t) {
     let reply = await getReply('他在旧金山创立的对冲基金Numerai依靠人工智能算法来处理所有的交易')
@@ -83,18 +83,28 @@ test('Test Capture Value', async function (t) {
     t.pass()
 })
 
-
-/**
- * Test Capture with Word number
- */
-test.only('Test Capture Value', async function (t) {
+test('Test Capture Value with word number', async function (t) {
     let reply = await getReply('家里冰箱坏了')
     console.log('getReply(家里冰箱坏了)', reply)
     t.is(reply.data.string, '冰箱坏了很多次了', 'Reply string should contain captured values.')
-    
+
     reply = await getReply('家里灯坏了')
     console.log('getReply(家里灯坏了)', reply)
     t.is(reply.data.string, '', 'Reply string should not contain anything.')
-    
+
     t.pass()
 })
+
+test('Test Capture Value with Min-max wildcards', async function (t) {
+    let reply = await getReply('今天是五一劳动节')
+    console.log('getReply(今天是五一劳动节)', reply)
+    t.is(reply.data.string, '祝大家玩的开心', 'Reply string should be resonable.')
+
+    reply = await getReply('今天是节日')
+    console.log('getReply(今天是节日)', reply)
+    t.is(reply.data.string, '', 'Reply string should not contain anything')
+
+    t.pass()
+})
+
+
