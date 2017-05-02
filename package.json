@@ -29,11 +29,12 @@
     "koa-static": "^3.0.0",
     "lodash": "^4.17.4",
     "log4js": "^1.1.1",
+    "node-hanlp-compromise": "^1.0.1",
     "peer": "~0.2.6",
     "socket.io": "~1.0.6",
     "ss-parser": "github:samurais/ss-parser#dist",
-    "superscript": "github:samurais/superscript#dist",
-    "superagent": "^3.5.2"
+    "superagent": "^3.5.2",
+    "superscript": "github:samurais/superscript#dist"
   },
   "devDependencies": {
     "ava": "^0.19.1",

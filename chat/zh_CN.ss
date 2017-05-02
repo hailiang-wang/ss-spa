@@ -22,7 +22,7 @@
 - {keep} <cap1>坏了很多次了
 
 // Min-max wildcards
-+ 今天是 *(5-8) 
++ 今天是 *(5-8)
 - {keep} 祝大家玩的开心
 
 < topic

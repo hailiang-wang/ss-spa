@@ -7,6 +7,8 @@ const franc = require('franc');
 const superagent = require("superagent");
 const config = require('../config/environment');
 const logger = require('../services/logging.service').getLogger('message_plugin/zh_CN.plugin')
+const hanlpc = require('node-hanlp-compromise');
+
 
 /**
  * cut Chinese Sentence
@@ -51,6 +53,16 @@ const addCNWords = async function addCNWords(cb) {
             cut: cut,
             keywords: keywords
         })
+
+        // resolve wordTags
+        this.message.entities = hanlpc.matchEntities(cut)
+        // this.message.names = []
+        // this.message.words = []
+        this.message.nouns = hanlpc.matchNoun(cut)
+        this.message.adverbs = hanlpc.matchAdverbs(cut)
+        this.message.verbs = hanlpc.matchVerbs(cut)
+        this.message.adjectives = hanlpc.matchAdjectives(cut)
+        this.message.pronouns = hanlpc.matchPronouns(cut)
 
         this.message.nlp_chinese = {
             cut: cut,
