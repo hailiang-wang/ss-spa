@@ -59,12 +59,13 @@ io.on('connection', function (socket) {
   })
 
   socket.on('wechaty:server', async function (data) {
-    debug('socket.io', 'wechaty:server', data)
+    console.log('socket.io', 'wechaty:server', data)
     let response = await bot.reply(data.author, data.content);
     debug('Get reply from superscript', response)
     socket.emit('server:wechaty', {
       recipient: data.author,
-      response: response
+      response: response,
+      rawObj: data.rawObj
     })
   })
 

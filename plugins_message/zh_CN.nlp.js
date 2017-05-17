@@ -18,9 +18,6 @@ const addCNWords = async function addCNWords(cb) {
             content: this.message.clean
         })
 
-        debug('nlp', nlp)
-
-        // resolve wordTags
         this.message.entities = nlp.data.entities;
         this.message.names = nlp.data.names;
         this.message.words = nlp.data.keywords;

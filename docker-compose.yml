@@ -19,3 +19,4 @@ services:
      - mongodb
     environment:
      - MONGO_DB_URI=mongodb://mongodb/SuperScriptSPA
+     - DEBUG=ss-spa*

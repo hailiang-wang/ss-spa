@@ -1,6 +1,6 @@
 {
   "name": "ss-spa",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "SuperScript Single Page Application",
   "scripts": {
     "test": "node_modules/ava/cli.js",
@@ -32,7 +32,7 @@
     "lodash": "^4.17.4",
     "node-hanlp-compromise": "^1.0.2",
     "peer": "~0.2.6",
-    "socket.io": "~1.0.6",
+    "socket.io": "~2.0.1",
     "ss-parser": "github:samurais/ss-parser#dist",
     "superagent": "^3.5.2",
     "superscript": "github:samurais/superscript#dist"
