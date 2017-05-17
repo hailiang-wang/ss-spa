@@ -5,6 +5,7 @@ const test = require('ava')
 const superagent = require('superagent')
 const config = require('../config/environment')
 const baseUrl = `http://localhost:${config.node.port}`
+const debug = require('debug')('ss-spa:test:zh')
 
 async function getReply(textMessage) {
     let result = await superagent.post(`${baseUrl}/api/v1/chabot/reply`)
@@ -21,8 +22,8 @@ async function getReply(textMessage) {
  * Test api:getReply(hello)
  */
 test.before(async t => {
-    let reply = await getReply('hello')
-    console.log('getReply(hello)', reply)
+    let reply = await getReply('你好')
+    console.log('getReply(你好)', reply)
     t.is(reply.rc, 0, "Response code should be 0.")
     t.pass()
 })

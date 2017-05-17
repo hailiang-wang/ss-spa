@@ -12,7 +12,6 @@ var all = {
     port: 3001
   },
   root: path.normalize(path.join(__dirname, '..', '..')),
-  hanlpUri: 'http://nlp.chatbot.io',
   superscript: {
     factSystem: {
       clean: true

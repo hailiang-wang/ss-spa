@@ -4,7 +4,7 @@
 
 const ROOT = '..'
 const superscript = require('superscript').default
-const logger = require(`${ROOT}/services/logging.service`).getLogger('bot.service')
+const debug = require('debug')('ss-spa:service:bot')
 
 function BotService() {
     this.bot = null
@@ -16,7 +16,7 @@ BotService.prototype.init = function (options) {
             if (err) {
                 reject(err)
             } else {
-                logger.info('BotService is started.')
+                debug('BotService is started.')
                 this.bot = botinstance
                 resolve()
             }
@@ -27,7 +27,7 @@ BotService.prototype.init = function (options) {
 BotService.prototype.reply = function (userId, message) {
     return new Promise((resolve, reject) => {
         if (this.bot) {
-            logger.debug('userId', userId, 'message', message)
+            debug('userId', userId, 'message', message)
             this.bot.reply(userId, message, (err, result) => {
                 if (err) return reject(err)
                 resolve(result)
@@ -41,7 +41,7 @@ BotService.prototype.reply = function (userId, message) {
 BotService.prototype.directReply = function (userId, topicId, topicQuestionId) {
     return new Promise((resolve, reject) => {
         if (this.bot) {
-            logger.debug('userId: ', userId, ' topicId: ', topicId, ' topicQuestionId: ', topicQuestionId)
+            debug('userId: ', userId, ' topicId: ', topicId, ' topicQuestionId: ', topicQuestionId)
             this.bot.directReply(userId, topicId, topicQuestionId, (err, result) => {
                 if (err) return reject(err)
                 resolve(result)

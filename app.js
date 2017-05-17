@@ -9,7 +9,7 @@ const app = new Koa();
 const path = require('path');
 const figlet = require('figlet')
 const port = config.node.port || 3001;
-const logger = require('./services/logging.service').getLogger('app')
+const debug = require('debug')('ss-spa:app')
 const bodyParser = require('koa-bodyparser')
 const bot = require('./services/bot.service')
 const router = require('./routes')
@@ -21,7 +21,7 @@ app.use(router.allowedMethods())
 
 const httpServer = app.listen(port, function () {
   figlet('SS SPA', function (err, data) {
-    logger.info(`            
+    console.log(`            
 ${data}
 =============== Powered by SuperScript ============
 --------https://github.com/Samurais/ss-spa --------
@@ -32,7 +32,7 @@ ___________________________________________________
 Hope you like it, and you are very welcome to
 upgrade me for more super powers!
 `)
-    logger.info('Sphinx Test Client Listening on port', port)
+    console.log('Sphinx Test Client Listening on port', port)
   })
 })
 const io = require('socket.io').listen(httpServer);
@@ -49,9 +49,9 @@ bot.init(config.superscript);
  */
 io.on('connection', function (socket) {
   socket.on('client:server', async function (data) {
-    logger.debug('socket.io', 'client:server', data)
+    debug('socket.io', 'client:server', data)
     let response = await bot.reply(data.author, data.content);
-    logger.debug('Get reply from superscript', response);
+    debug('Get reply from superscript', response);
     socket.emit('server:client', {
       recipient: data.author,
       response: response
@@ -63,10 +63,10 @@ const peerServer = new PeerServer({ port: 9000, path: '/chat' });
 
 peerServer.on('connection', function (id) {
   io.emit(Topics.USER_CONNECTED, id);
-  logger.info('User connected with #', id);
+  debug('User connected with #', id);
 });
 
 peerServer.on('disconnect', function (id) {
   io.emit(Topics.USER_DISCONNECTED, id);
-  logger.info('With #', id, 'user disconnected.');
+  debug('With #', id, 'user disconnected.');
 });
