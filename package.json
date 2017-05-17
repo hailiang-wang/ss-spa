@@ -35,7 +35,8 @@
     "socket.io": "~2.0.1",
     "ss-parser": "github:samurais/ss-parser#dist",
     "superagent": "^3.5.2",
-    "superscript": "github:samurais/superscript#dist"
+    "superscript": "github:samurais/superscript#dist",
+    "wforecast": "^2.0.1"
   },
   "devDependencies": {
     "ava": "^0.19.1",

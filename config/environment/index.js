@@ -23,7 +23,8 @@ var all = {
     historyCheckpoints: 100,
     conversationTimeout: 1000 * 60 * 30 // half an hour, conversation memory timeout
   },
-  logLevel: 'INFO'
+  logLevel: 'INFO',
+  heweatherKey: null
 }
 
 var config = _.merge(all, require('./' + env + '.js') || {})
@@ -32,8 +33,8 @@ if (process.env.MONGO_DB_URI) {
   config.superscript.mongoURI = process.env.MONGO_DB_URI
 }
 
-if (process.env.HANLP_API_URI) {
-  config.hanlpUri = process.env.HANLP_API_URI
+if (process.env.HEWEATHER_KEY) {
+  config.heweatherKey = process.env.HEWEATHER_KEY
 }
 
 // console.log('configurations:', config)

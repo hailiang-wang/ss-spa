@@ -4,7 +4,7 @@
  * https://github.com/wooorm/franc/tree/master/packages/franc-all
  */
 const franc = require('franc');
-const debug = require('debug')('ss-spa:zh_CN.nlp');
+const debug = require('debug')('ss-spa:plugin_message');
 const hanlpclient = require('hanlp-client');
 
 
