@@ -4,34 +4,31 @@
  * https://github.com/wooorm/franc/tree/master/packages/franc-all
  */
 const franc = require('franc');
-const superagent = require("superagent");
-const config = require('../config/environment');
 const debug = require('debug')('ss-spa:zh_CN.nlp');
 const hanlpclient = require('hanlp-client');
 
 
 const addCNWords = async function addCNWords(cb) {
-    debug('this.message', this.message.clean)
     let result = franc(this.message.clean, { minLength: 1 });
     this.message.lang_code = result
     if (result === 'cmn') {
-        let nlpData = hanlpclient.combine({
+        let nlp = await hanlpclient.combine({
             type: 'nlp',
             num: 2,
             content: this.message.clean
         })
 
-        debug('nlpData', nlpData)
+        debug('nlp', nlp)
 
         // resolve wordTags
-        this.message.entities = nlpData.entities;
-        // this.message.names = []
-        // this.message.words = []
-        this.message.nouns = nlpData.nouns;
-        this.message.adverbs = nlpData.adverbs;
-        this.message.verbs = nlpData.verbs;
-        this.message.adjectives = nlpData.adjectives;
-        this.message.pronouns = nlpData.pronouns;
+        this.message.entities = nlp.data.entities;
+        this.message.names = nlp.data.names;
+        this.message.words = nlp.data.keywords;
+        this.message.nouns = nlp.data.nouns;
+        this.message.adverbs = nlp.data.adverbs;
+        this.message.verbs = nlp.data.verbs;
+        this.message.adjectives = nlp.data.adjectives;
+        this.message.pronouns = nlp.data.pronouns;
         cb();
     } else {
         cb();
