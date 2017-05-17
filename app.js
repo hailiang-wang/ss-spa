@@ -57,6 +57,17 @@ io.on('connection', function (socket) {
       response: response
     })
   })
+
+  socket.on('wechaty:server', async function (data) {
+    debug('socket.io', 'wechaty:server', data)
+    let response = await bot.reply(data.author, data.content);
+    debug('Get reply from superscript', response)
+    socket.emit('server:wechaty', {
+      recipient: data.author,
+      response: response
+    })
+  })
+
 });
 
 const peerServer = new PeerServer({ port: 9000, path: '/chat' });

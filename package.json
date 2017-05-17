@@ -1,6 +1,6 @@
 {
   "name": "ss-spa",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "SuperScript Single Page Application",
   "scripts": {
     "test": "node_modules/ava/cli.js",

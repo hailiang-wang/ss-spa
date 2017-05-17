@@ -7,21 +7,15 @@ services:
     #  - "27018:27018"
     environment:
      - AUTH=no
-  hanlp:
-    image: "samurais/hanlp-api:latest"
-    # ports:
-    #  - 3002:3000
-  web:
+  logic:
     image: "samurais/ss-spa:latest"
     command: "node app.js"
     ports:
+    # access logic web testclient from 3001
      - "3001:3001"
     depends_on:
      - mongodb
-     - hanlp
     links:
      - mongodb
-     - hanlp
     environment:
      - MONGO_DB_URI=mongodb://mongodb/SuperScriptSPA
-     - HANLP_API_URI=http://hanlp:3000
