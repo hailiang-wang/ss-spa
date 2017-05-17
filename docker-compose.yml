@@ -20,3 +20,4 @@ services:
     environment:
      - MONGO_DB_URI=mongodb://mongodb/SuperScriptSPA
      - DEBUG=ss-spa*
+     - HEWEATHER_KEY=182f1b6826d94c6285a489d2414f3ad0
